@@ -4,16 +4,16 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
 import meet from "../../Assets/Projects/meet.png";
-import obc from "../../Assets/Projects/blog.png";
+import obc from "../../Assets/Projects/obc.png";
 import intranet from "../../Assets/Projects/intranet.png";
 import serveur from "../../Assets/Projects/serveur.png";
 import chapitreMusical from "../../Assets/Projects/chapitreMusical.png";
 import wm from "../../Assets/Projects/wm.png";
 import ww from "../../Assets/Projects/ww.png";
 import gopetsit from "../../Assets/Projects/gopetsit.png";
-import roboto from "../../Assets/Projects/roboto.png";
+import ndi from "../../Assets/Projects/ndi.png";
 import salt from "../../Assets/Projects/salt.png";
-import mastermind from "../../Assets/Projects/mastermind.png";
+import mastermind from "../../Assets/Projects/mastermind.jpeg";
 import rail from "../../Assets/Projects/rail.png";
 import escapeGame from "../../Assets/Projects/escapeGame.png";
 
@@ -64,17 +64,6 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-                imgPath={serveur}
-                isBlog={false}
-                title="Les Aventuriers du Rail / Graphe"
-                description=""
-                ghLink=""
-                // demoLink=""
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={chapitreMusical}
               isBlog={false}
               title="Chapitre Musical"
@@ -106,22 +95,13 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-                imgPath={gopetsit}
-                isBlog={false}
-                title="GoPetSit"
-                description=""
-                ghLink=""
-                // demoLink=""
-            />
-          </Col>
+
 
           <Col md={4} className="project-card">
             <ProjectCard
-                imgPath={roboto}
+                imgPath={ndi}
                 isBlog={false}
-                title="Roboto"
+                title="Nuit de l'Info"
                 description=""
                 ghLink=""
                 // demoLink=""
@@ -138,7 +118,26 @@ function Projects() {
                 // demoLink=""
             />
           </Col>
-
+          <Col md={4} className="project-card">
+            <ProjectCard
+                imgPath={rail}
+                isBlog={false}
+                title="Les Aventuriers du Rail / Graphe"
+                description=""
+                ghLink=""
+                // demoLink=""
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+                imgPath={gopetsit}
+                isBlog={false}
+                title="GoPetSit"
+                description=""
+                ghLink=""
+                // demoLink=""
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
                 imgPath={mastermind}
@@ -149,11 +148,13 @@ function Projects() {
                 // demoLink=""
             />
           </Col>
+
+
           <Col md={4} className="project-card">
             <ProjectCard
-                imgPath={rail}
+                imgPath={serveur}
                 isBlog={false}
-                title="Les Aventuriers du Rail / Graphe"
+                title="Serveur"
                 description=""
                 ghLink=""
                 // demoLink=""
