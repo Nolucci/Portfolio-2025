@@ -18,19 +18,19 @@ function AventuriersDesRails() {
                             <Card.Body>
                                 <Row>
                                     <Col md={6} className="mb-3">
-                                        <strong className="text-purple">Cadre du projet :</strong>
+                                        <strong className="text-blue">Cadre du projet :</strong>
                                         <span>SAÉ de développement, 2<sup>ème</sup> semestre de BUT</span>
                                     </Col>
                                     <Col md={6} className="mb-3">
-                                        <strong className="text-purple">Technologies :</strong>
+                                        <strong className="text-blue">Technologies :</strong>
                                         <span>Java 18, JavaFX 18</span>
                                     </Col>
                                     <Col md={6}>
-                                        <strong className="text-purple">Rôle :</strong>
+                                        <strong className="text-blue">Rôle :</strong>
                                         <span>Développeur Frontend & Backend</span>
                                     </Col>
                                     <Col md={6}>
-                                        <strong className="text-purple">Statut :</strong>
+                                        <strong className="text-blue">Statut :</strong>
                                         <span>Terminé</span>
                                     </Col>
                                 </Row>
@@ -44,7 +44,7 @@ function AventuriersDesRails() {
 
                 <Row className="align-items-center mb-5">
                     <Col md={7}>
-                        <h2 className="purple mb-3">Description détaillée du projet</h2>
+                        <h2 className="blue mb-3">Description détaillée du projet</h2>
                         <p style={{ color: "white", textAlign: "justify" }}>
                             Ce projet était la SAÉ de développement du second semestre du BUT Informatique, portant sur les compétences de Développement et d'Optimisation (UE 1 et 2). L'objectif principal était un portage numérique du jeu de plateau <em>Les Aventuriers du Rail : Autour du Monde</em> en Java, avec une interface graphique réalisée à l'aide de JavaFX.
                         </p>
@@ -69,7 +69,7 @@ function AventuriersDesRails() {
 
                 <Row className="align-items-center mt-5">
                     <Col md={7}>
-                        <h2 className="purple mb-3">Accéder au projet</h2>
+                        <h2 className="blue mb-3">Accéder au projet</h2>
                         <div className="mt-4">
                             <Button variant="outline-light" href="https://gitlabinfo.iutmontp.univ-montp2.fr/franceskinn/railsihm" target="_blank">
                                 <FaGitlab /> Voir sur GitLab

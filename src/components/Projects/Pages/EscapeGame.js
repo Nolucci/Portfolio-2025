@@ -16,19 +16,19 @@ function EscapeGameProject() {
                             <Card.Body>
                                 <Row>
                                     <Col md={6} className="mb-3">
-                                        <strong className="text-purple">Cadre du projet :</strong>
+                                        <strong className="text-blue">Cadre du projet :</strong>
                                         <span>SAÉ de développement, BUT Informatique</span>
                                     </Col>
                                     <Col md={6} className="mb-3">
-                                        <strong className="text-purple">Technologies :</strong>
+                                        <strong className="text-blue">Technologies :</strong>
                                         <span>Unity, C#, Git</span>
                                     </Col>
                                     <Col md={6}>
-                                        <strong className="text-purple">Rôle :</strong>
+                                        <strong className="text-blue">Rôle :</strong>
                                         <span>Développeur Gameplay & Narrative Designer</span>
                                     </Col>
                                     <Col md={6}>
-                                        <strong className="text-purple">Statut :</strong>
+                                        <strong className="text-blue">Statut :</strong>
                                         <span>Terminé</span>
                                     </Col>
                                 </Row>
@@ -42,7 +42,7 @@ function EscapeGameProject() {
 
                 <Row className="align-items-center mb-5">
                     <Col md={7}>
-                        <h2 className="purple mb-3">Description du projet</h2>
+                        <h2 className="blue mb-3">Description du projet</h2>
                         <p style={{ color: "white", textAlign: "justify" }}>
                             Conception et réalisation d'un jeu d'évasion immersif intégrant des énigmes complexes, des mécaniques interactives et une histoire captivante. Ce projet a renforcé mes compétences en sélection et utilisation de bibliothèques spécifiques au domaine du jeu vidéo (AC 6), ainsi qu'en organisation et partage efficace d'une veille numérique (AC 7).
                         </p>
@@ -59,7 +59,7 @@ function EscapeGameProject() {
 
                 <Row className="align-items-center mt-5">
                     <Col md={7}>
-                        <h2 className="purple mb-3">Liens du projet</h2>
+                        <h2 className="blue mb-3">Liens du projet</h2>
                         <div className="mt-4">
                             <Button variant="outline-light" href="https://github.com/Nolucci/Grizly-SAE1.git" target="_blank">
                                 <FaGithub /> GitHub

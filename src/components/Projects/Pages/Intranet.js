@@ -17,19 +17,19 @@ function IntranetAgglo2025() {
                             <Card.Body>
                                 <Row>
                                     <Col md={6} className="mb-3">
-                                        <strong className="text-purple">Cadre du projet :</strong>
+                                        <strong className="text-blue">Cadre du projet :</strong>
                                         <span>SAÉ de développement, 4<sup>ème</sup> semestre de BUT</span>
                                     </Col>
                                     <Col md={6} className="mb-3">
-                                        <strong className="text-purple">Technologies :</strong>
+                                        <strong className="text-blue">Technologies :</strong>
                                         <span>Vue.js, Node.js, Express, MySQL</span>
                                     </Col>
                                     <Col md={6}>
-                                        <strong className="text-purple">Rôle :</strong>
+                                        <strong className="text-blue">Rôle :</strong>
                                         <span>Développeur Full Stack, Concepteur UI</span>
                                     </Col>
                                     <Col md={6}>
-                                        <strong className="text-purple">Statut :</strong>
+                                        <strong className="text-blue">Statut :</strong>
                                         <span>Terminé</span>
                                     </Col>
                                 </Row>
@@ -43,7 +43,7 @@ function IntranetAgglo2025() {
 
                 <Row className="align-items-center mb-5">
                     <Col md={7}>
-                        <h2 className="purple mb-3">Description du projet</h2>
+                        <h2 className="blue mb-3">Description du projet</h2>
                         <p style={{ color: "white", textAlign: "justify" }}>
                             Développement d'un intranet pour une collectivité territoriale, facilitant la communication interne, l'organisation
                             et la gestion des ressources. Ce projet m'a permis de mettre en pratique mes compétences
@@ -62,7 +62,7 @@ function IntranetAgglo2025() {
 
                 <Row className="align-items-center mt-5">
                     <Col md={12}>
-                        <h2 className="purple mb-3">Compétences & Enjeux</h2>
+                        <h2 className="blue mb-3">Compétences & Enjeux</h2>
                         <p style={{ color: "white", textAlign: "justify" }}>
                             Ce projet m'a permis de renforcer mes compétences techniques tout en comprenant les enjeux organisationnels liés à la gestion du changement numérique et l'importance d'une expérience utilisateur efficace dans les collectivités.
                         </p>

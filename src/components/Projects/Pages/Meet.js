@@ -16,19 +16,19 @@ function MeetAPI() {
                             <Card.Body>
                                 <Row>
                                     <Col md={6} className="mb-3">
-                                        <strong className="text-purple">Cadre du projet :</strong>
+                                        <strong className="text-blue">Cadre du projet :</strong>
                                         <span>Dernier rendu de Framework Web (BUT Informatique)</span>
                                     </Col>
                                     <Col md={6} className="mb-3">
-                                        <strong className="text-purple">Technologies :</strong>
+                                        <strong className="text-blue">Technologies :</strong>
                                         <span>Vue.js 3, TypeScript, REST API, Bootstrap</span>
                                     </Col>
                                     <Col md={6}>
-                                        <strong className="text-purple">Rôle :</strong>
+                                        <strong className="text-blue">Rôle :</strong>
                                         <span>Développeur Fullstack</span>
                                     </Col>
                                     <Col md={6}>
-                                        <strong className="text-purple">Statut :</strong>
+                                        <strong className="text-blue">Statut :</strong>
                                         <span>Terminé</span>
                                     </Col>
                                 </Row>
@@ -42,7 +42,7 @@ function MeetAPI() {
 
                 <Row className="align-items-center mb-5">
                     <Col md={7}>
-                        <h2 className="purple mb-3">Description détaillée</h2>
+                        <h2 className="blue mb-3">Description détaillée</h2>
                         <p style={{ color: "white", textAlign: "justify" }}>
                             Projet de conception complète d'une application web dédiée à la gestion et à la participation à des événements. L'objectif principal était de permettre aux utilisateurs de s'inscrire, de consulter et de gérer leurs participations aux événements via une interface intuitive et dynamique réalisée avec Vue.js et TypeScript, soutenue par une API REST robuste.
                         </p>
@@ -60,7 +60,7 @@ function MeetAPI() {
 
                 <Row className="align-items-center mt-5">
                     <Col md={7}>
-                        <h2 className="purple mb-3">Ma contribution</h2>
+                        <h2 className="blue mb-3">Ma contribution</h2>
                         <p style={{ color: "white", textAlign: "justify" }}>
                             Étant seul sur ce projet, j'ai réalisé l'intégralité des étapes : conception et développement des composants Vue.js, création et intégration de l'API REST en TypeScript, gestion des données avec MongoDB, ainsi que le déploiement continu et documentation complète du projet.
                         </p>

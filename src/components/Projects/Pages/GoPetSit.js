@@ -15,19 +15,19 @@ function GoPet() {
                             <Card.Body>
                                 <Row>
                                     <Col md={6} className="mb-3">
-                                        <strong className="text-purple">Cadre du projet :</strong>
+                                        <strong className="text-blue">Cadre du projet :</strong>
                                         <span>SAÉ de développement, 3<sup>ème</sup> semestre de BUT</span>
                                     </Col>
                                     <Col md={6} className="mb-3">
-                                        <strong className="text-purple">Technologies :</strong>
+                                        <strong className="text-blue">Technologies :</strong>
                                         <span>React.js, Node.js, Express, MongoDB</span>
                                     </Col>
                                     <Col md={6}>
-                                        <strong className="text-purple">Rôle :</strong>
+                                        <strong className="text-blue">Rôle :</strong>
                                         <span>Développeur Full Stack</span>
                                     </Col>
                                     <Col md={6}>
-                                        <strong className="text-purple">Statut :</strong>
+                                        <strong className="text-blue">Statut :</strong>
                                         <span>Terminé</span>
                                     </Col>
                                 </Row>
@@ -41,7 +41,7 @@ function GoPet() {
 
                 <Row className="align-items-center mb-5">
                     <Col md={7}>
-                        <h2 className="purple mb-3">Description du projet</h2>
+                        <h2 className="blue mb-3">Description du projet</h2>
                         <p style={{ color: "white", textAlign: "justify" }}>
                             Conception et développement d'une plateforme web permettant la mise en relation entre propriétaires d'animaux et pet-sitters, simplifiant ainsi la garde d'animaux domestiques. Ce projet m'a permis de renforcer mes compétences en conception d'architectures adaptées (AC 1) et en intégration de solutions en production (AC 3).
                         </p>
@@ -58,7 +58,7 @@ function GoPet() {
 
                 <Row className="align-items-center mt-5">
                     <Col md={12}>
-                        <h2 className="purple mb-3">Apprentissages et Compétences clés</h2>
+                        <h2 className="blue mb-3">Apprentissages et Compétences clés</h2>
                         <p style={{ color: "white", textAlign: "justify" }}>
                             Grâce à ce projet, j'ai approfondi mes connaissances en développement web complet ainsi qu'en déploiement et intégration de solutions pratiques adaptées aux besoins spécifiques des utilisateurs finaux.
                         </p>

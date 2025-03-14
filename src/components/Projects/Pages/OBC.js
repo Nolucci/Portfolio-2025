@@ -15,19 +15,19 @@ function OracleBackupChecker() {
                             <Card.Body>
                                 <Row>
                                     <Col md={6} className="mb-3">
-                                        <strong className="text-purple">Cadre du projet :</strong>
+                                        <strong className="text-blue">Cadre du projet :</strong>
                                         <span>SAÉ de développement, 4<sup>ème</sup> semestre de BUT</span>
                                     </Col>
                                     <Col md={6} className="mb-3">
-                                        <strong className="text-purple">Technologies :</strong>
+                                        <strong className="text-blue">Technologies :</strong>
                                         <span>Oracle DB, Python, Bash</span>
                                     </Col>
                                     <Col md={6}>
-                                        <strong className="text-purple">Rôle :</strong>
+                                        <strong className="text-blue">Rôle :</strong>
                                         <span>Développeur Backend, Analyste</span>
                                     </Col>
                                     <Col md={6}>
-                                        <strong className="text-purple">Statut :</strong>
+                                        <strong className="text-blue">Statut :</strong>
                                         <span>Terminé</span>
                                     </Col>
                                 </Row>
@@ -41,7 +41,7 @@ function OracleBackupChecker() {
 
                 <Row className="align-items-center mb-5">
                     <Col md={7}>
-                        <h2 className="purple mb-3">Description du projet</h2>
+                        <h2 className="blue mb-3">Description du projet</h2>
                         <p style={{ color: "white", textAlign: "justify" }}>
                             Conception d'un outil automatisé pour vérifier l'intégrité des sauvegardes Oracle,
                             assurant la fiabilité des données et la continuité des opérations. Ce projet m'a
@@ -61,7 +61,7 @@ function OracleBackupChecker() {
 
                 <Row className="align-items-center mt-5">
                     <Col md={12}>
-                        <h2 className="purple mb-3">Contribution & Apprentissage</h2>
+                        <h2 className="blue mb-3">Contribution & Apprentissage</h2>
                         <p style={{ color: "white", textAlign: "justify" }}>
                             Ce projet m'a permis d'approfondir mes compétences techniques en gestion automatisée des processus critiques (AC 1)
                             et en anticipation et justification des métriques de performance (AC 4, AC 5).

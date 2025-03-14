@@ -16,19 +16,19 @@ function ChatPitreMusicalPage() {
                             <Card.Body>
                                 <Row>
                                     <Col md={6} className="mb-3">
-                                        <strong className="text-purple">Cadre du projet :</strong>
+                                        <strong className="text-blue">Cadre du projet :</strong>
                                         <span>Créative Game Jam 2025 (CGJ)</span>
                                     </Col>
                                     <Col md={6} className="mb-3">
-                                        <strong className="text-purple">Technologies :</strong>
+                                        <strong className="text-blue">Technologies :</strong>
                                         <span>Unity, C#, WebGL</span>
                                     </Col>
                                     <Col md={6}>
-                                        <strong className="text-purple">Rôle :</strong>
+                                        <strong className="text-blue">Rôle :</strong>
                                         <span>Développeur Gameplay & Intégrateur Audio</span>
                                     </Col>
                                     <Col md={6}>
-                                        <strong className="text-purple">Statut :</strong>
+                                        <strong className="text-blue">Statut :</strong>
                                         <span>Terminé (🏅 Top 10)</span>
                                     </Col>
                                 </Row>
@@ -42,7 +42,7 @@ function ChatPitreMusicalPage() {
 
                 <Row className="align-items-center mb-5">
                     <Col md={7}>
-                        <h2 className="purple mb-3">Description du projet</h2>
+                        <h2 className="blue mb-3">Description du projet</h2>
                         <p style={{ color: "white", textAlign: "justify" }}>
                             Participation à la création d'un jeu vidéo musical lors de la Code Game Jam 2025 (CGJ), compétition regroupant plusieurs dizaines d'équipes et plus de 300 personnes. Sur le thème imposé, notre équipe composée de <strong>6 personnes</strong> a développé en seulement 2 jours un jeu innovant, combinant gameplay interactif et musique dynamique, ce qui nous a permis de nous classer dans le <strong>Top 10 🏅</strong>. Cette expérience a été particulièrement enrichissante sur le plan technique et artistique, améliorant mes compétences en Godot, GodotLanguage et en montage vidéo.
                         </p>
@@ -59,7 +59,7 @@ function ChatPitreMusicalPage() {
 
                 <Row className="align-items-center mt-5">
                     <Col md={7}>
-                        <h2 className="purple mb-3">Liens du projet</h2>
+                        <h2 className="blue mb-3">Liens du projet</h2>
                         <div className="mt-4">
                             <Button variant="outline-light" href="https://github.com/nolucci/CGJ2025" target="_blank" className="me-3">
                                 <FaGithub /> GitHub

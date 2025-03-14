@@ -12,25 +12,25 @@ function Home2() {
           <Row className="align-items-center">
             <Col md={8} className="home-about-description">
               <h1 style={{ fontSize: "2.6em" }}>
-                <span className="purple"> QUI SUIS-JE ? </span>
+                <span className="blue"> QUI SUIS-JE ? </span>
               </h1>
               <p className="home-about-body">
                 Bon vivant, curieux et flexible, passionné par la programmation et le numérique depuis mon plus jeune âge.
                 <br />
                 <br />
-                Actuellement étudiant en <b className="purple">BUT Informatique à l'IUT de Montpellier</b>, je suis spécialisé dans le parcours <b className="purple">Réalisation d'applications : développement, conception, validation (RACDV)</b>.
+                Actuellement étudiant en <b className="blue">BUT Informatique à l'IUT de Montpellier</b>, je suis spécialisé dans le parcours <b className="blue">Réalisation d'applications : développement, conception, validation (RACDV)</b>.
                 <br />
                 <br />
-                J'ai obtenu mon <b className="purple">Baccalauréat général</b> avec les spécialités <b className="purple">Numérique et Sciences Informatiques, Mathématiques</b> et l'option <b className="purple">Mathématiques Expertes</b>.
+                J'ai obtenu mon <b className="blue">Baccalauréat général</b> avec les spécialités <b className="blue">Numérique et Sciences Informatiques, Mathématiques</b> et l'option <b className="blue">Mathématiques Expertes</b>.
                 <br />
                 <br />
                 Je suis également intéressé par la psychologie, le développement personnel et la musique, domaines qui enrichissent ma créativité et mon approche du travail en équipe.
                 <br />
                 <br />
-                Je suis activement engagé dans plusieurs projets personnels et universitaires, notamment la participation à des compétitions comme la <b className="purple">Code Game Jam</b> et le développement d'un <b className="purple">serveur d'hébergement</b>.
+                Je suis activement engagé dans plusieurs projets personnels et universitaires, notamment la participation à des compétitions comme la <b className="blue">Code Game Jam</b> et le développement d'un <b className="blue">serveur d'hébergement</b>.
                 <br />
                 <br />
-                Mes compétences couvrent de nombreux langages et frameworks tels que <b className="purple">Java, JavaScript, HTML, CSS, PHP, C#, SQL</b> ainsi que des outils comme <b className="purple">Git, Unity, Godot</b>.
+                Mes compétences couvrent de nombreux langages et frameworks tels que <b className="blue">Java, JavaScript, HTML, CSS, PHP, C#, SQL</b> ainsi que des outils comme <b className="blue">Git, Unity, Godot</b>.
               </p>
             </Col>
             <Col md={4} className="myAvtar">
@@ -43,7 +43,7 @@ function Home2() {
             <Col md={12} className="home-about-social">
               <h1>ME RETROUVER</h1>
               <p>
-                N'hésitez pas à me <span className="purple">contacter </span>sur mes réseaux sociaux !
+                N'hésitez pas à me <span className="blue">contacter </span>sur mes réseaux sociaux !
               </p>
               <ul className="home-about-social-links">
                 <li className="social-icons">
