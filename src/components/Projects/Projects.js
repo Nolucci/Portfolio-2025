@@ -95,7 +95,7 @@ function Projects() {
                   imgPath={ChatPitreMusical}
                   isBlog={false}
                   title="ChatPitre Musical"
-                  description="Participation à la création d'un jeu vidéo musical lors de la CGJ 2025, combinant narration interactive et mécaniques rythmiques. Cette expérience a renforcé mes compétences en utilisation de bibliothèques dédiées au domaine des jeux vidéo (AC 6) et en organisation d'une veille technologique (AC 7)."
+                  description="Participation à la création d'un jeu vidéo sur le thème de la musique lors de la CGJ 2025 avec des mécaniques rythmiques. Cette expérience a renforcé mes compétences en utilisation de bibliothèques dédiées au domaine des jeux vidéo sur Godot (AC 6) et en organisation d'une veille technologique (AC 7)."
                   ghLink="https://github.com/Nolucci/CGJ2025"
                   demoLink="https://nolucci.itch.io/chat-pitre-musical"
                   projectLink="/project/ChatPitreMusical"             />
@@ -106,7 +106,7 @@ function Projects() {
                   imgPath={WispMadness}
                   isBlog={false}
                   title="Wisp Madness"
-                  description="Développement d'un jeu vidéo dans le cadre de la CGJ 2023, mettant en scène des esprits dans une aventure palpitante. Ce projet m'a permis de choisir et d'utiliser des bibliothèques spécifiques au domaine du jeu vidéo (AC 6) et de collaborer efficacement au sein d'une équipe de développement (AC 10)."
+                  description="Développement d'un jeu vidéo dans le cadre de la CGJ 2023, mettant en scène des esprits dans un vampire survivor like. Ce projet m'a permis de choisir et d'utiliser des bibliothèques spécifiques au domaine du jeu vidéo (AC 6) et de collaborer efficacement au sein d'une équipe de développement (AC 10)."
                   ghLink="https://github.com/LokiAquila/WispMadness"
                   demoLink="https://nolucci.itch.io/wisp-madness"
                   projectLink="/project/WispMadness"             />
@@ -140,7 +140,7 @@ function Projects() {
                   imgPath={salt}
                   isBlog={false}
                   title="S.Alt"
-                  description="Développement d'une application mobile visant à promouvoir des alternatives durables et écologiques dans la vie quotidienne. Ce projet m'a permis d'approfondir mes compétences en choix et utilisation de bibliothèques dédiées au domaine de l'application (AC 6) et en anticipation des résultats de diverses métriques (AC 4)."
+                  description="S.Alt est une application de gestion de stages et d'alternances pour l'IUT de Montpellier-Sète. Ce projet m'a permis d'approfondir mes compétences en choix et utilisation de bibliothèques dédiées au domaine de l'application (Symfony) (AC 6) et en anticipation des résultats de diverses métriques (AC 4)."
                   ghLink="https://gitlabinfo.iutmontp.univ-montp2.fr/sae-semestre-31/salt.git"
                   // demoLink=""
                   projectLink="/project/SAlt"             />
@@ -195,7 +195,7 @@ function Projects() {
                   imgPath={escapeGame}
                   isBlog={false}
                   title="Escape Game"
-                  description="Conception et développement d'un jeu d'évasion immersif, combinant des énigmes complexes et une narration captivante. Ce projet a renforcé mes compétences en choix et utilisation de bibliothèques dédiées au domaine du jeu (AC 6) et en organisation et partage d'une veille numérique (AC 7)."
+                  description="Conception et développement d'un site de jeu d'évasion immersif (escape games), combinant des énigmes complexes et une narration captivante. Ce projet a renforcé mes compétences en choix et utilisation de bibliothèques dédiées au domaine du développement WEB (AC 6) et en organisation et partage d'une veille numérique (AC 7)."
                   ghLink="https://github.com/Nolucci/Grizly-SAE1.git"
                   // demoLink=""
                   projectLink="/project/EscapeGame"             />

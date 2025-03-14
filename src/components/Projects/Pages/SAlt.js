@@ -44,8 +44,8 @@ function SaltProject() {
                     <Col md={7}>
                         <h2 className="purple mb-3">Description du projet</h2>
                         <p style={{ color: "white", textAlign: "justify" }}>
-                            Développement d'une application mobile visant à promouvoir des alternatives durables et écologiques au quotidien.
-                            Ce projet m'a permis d'approfondir mes compétences en sélection et utilisation de bibliothèques adaptées au développement mobile (AC 6) ainsi qu'en anticipation et gestion des résultats des métriques de performance (AC 4).
+                            S.Alt est une application de gestion de stages et d'alternances pour l'IUT de Montpellier.
+                            Ce projet compte pour la SAÉ de troisième semestre du BUT Informatique (2023-2024). Dans ce projet, nous devions donc réaliser cette plateforme en suivant l'architecture MVC, avec PHP 8.2 comme langage de travail. Nous étions aussi évalué sur notre application de la méthode agile Scrum.
                         </p>
                         <ul className="text-white text-start">
                             <li>Utilisation de React Native et Expo pour un développement multiplateforme</li>
