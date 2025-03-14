@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Card, Image, Button } from "react-bootstrap";
 import Particle from "../../Particle";
-import ww from "../../../Assets/Projects/WeatherWizardry.png"; // adapte selon ton projet
+import ww from "../../../Assets/Projects/WeatherWizardry.png"; // Vérifie ton chemin
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 function WeatherWizardry() {
@@ -11,25 +11,25 @@ function WeatherWizardry() {
             <Container>
                 <Row className="align-items-center mb-5">
                     <Col md={7}>
-                        <h1 className="project-heading mb-4">Weather Wizardry</h1>
+                        <h1 className="project-heading mb-4">Weather Wizardry : Maître du temps</h1>
                         <Card className="bg-dark text-white shadow">
                             <Card.Body>
                                 <Row>
                                     <Col md={6} className="mb-3">
                                         <strong className="text-purple">Cadre du projet :</strong>
-                                        <span>SAÉ de développement, CGJ 2023</span>
+                                        <span>Code Game Jam 2023</span>
                                     </Col>
                                     <Col md={6} className="mb-3">
                                         <strong className="text-purple">Technologies :</strong>
-                                        <span>Unity, C#, Photoshop</span>
+                                        <span>C#, Unity</span>
                                     </Col>
                                     <Col md={6}>
                                         <strong className="text-purple">Rôle :</strong>
-                                        <span>Développeur Gameplay & Designer</span>
+                                        <span>Développeur Backend & Gameplay</span>
                                     </Col>
                                     <Col md={6}>
                                         <strong className="text-purple">Statut :</strong>
-                                        <span>Terminé</span>
+                                        <span>Terminé (🥉 3ᵉ prix)</span>
                                     </Col>
                                 </Row>
                             </Card.Body>
@@ -44,16 +44,16 @@ function WeatherWizardry() {
                     <Col md={7}>
                         <h2 className="purple mb-3">Description du projet</h2>
                         <p style={{ color: "white", textAlign: "justify" }}>
-                            Développement d'un jeu vidéo basé sur une expérience innovante autour du contrôle météorologique, mêlant stratégie et gameplay interactif. Ce projet m'a permis de développer des compétences en conception de mécaniques de jeu innovantes (AC 6) et en gestion efficace de projets créatifs (AC 10).
+                            Première participation à la Code Game Jam, une compétition de développement de jeux vidéo en 2 jours. Malgré une équipe réduite de moitié à cause d'absences et des difficultés techniques majeures, nous avons réussi à créer un jeu de type <strong>platformer</strong> basé sur le thème « Maître du temps ». Grâce à une organisation rigoureuse et une détermination forte, notre équipe a décroché le <strong>troisième prix 🥉</strong>. Ce projet m'a permis de renforcer mes compétences techniques en C# et Unity, ainsi que mes capacités à gérer efficacement une crise et un projet sous contrainte (AC 6 et AC 10).
                         </p>
                         <ul className="text-white text-start">
-                            <li>Développement d'une expérience ludique originale avec Unity</li>
-                            <li>Intégration de mécaniques innovantes centrées sur la météo et l'environnement</li>
-                            <li>Participation active à la gestion d'équipe et à l'organisation de projet créatif</li>
+                            <li>Développement intensif des mécaniques de gameplay (collisions, interactions)</li>
+                            <li>Création et gestion des scripts pour les personnages et objets interactifs</li>
+                            <li>Résolution efficace des problèmes techniques et gestion d'équipe en contexte de crise</li>
                         </ul>
                     </Col>
                     <Col md={5}>
-                        <Image src={ww} alt="Description projet" fluid rounded className="shadow-lg" />
+                        <Image src={ww} alt="Gameplay Weather Wizardry" fluid rounded className="shadow-lg" />
                     </Col>
                 </Row>
 
@@ -67,7 +67,7 @@ function WeatherWizardry() {
                         </div>
                     </Col>
                     <Col md={5}>
-                        <Image src={ww} alt="Démo du projet" fluid rounded className="shadow-lg" />
+                        <Image src={ww} alt="Démo Weather Wizardry" fluid rounded className="shadow-lg" />
                     </Col>
                 </Row>
             </Container>
