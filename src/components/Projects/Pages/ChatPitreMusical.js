@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col, Card, Image, Button } from "react-bootstrap";
 import Particle from "../../Particle";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
-import ChatPitreMusical from "../../../Assets/Projects/ChatPitreMusical.png"; // adapte selon ton projet
+import ChatPitreMusical from "../../../Assets/Projects/ChatPitreMusical.png";
 
 function ChatPitreMusicalPage() {
     return (
@@ -11,9 +11,7 @@ function ChatPitreMusicalPage() {
             <Container>
                 <Row className="align-items-center mb-5">
                     <Col md={7}>
-                        <h1 className="project-heading mb-4">
-                            ChatPitre Musical
-                        </h1>
+                        <h1 className="project-heading mb-4">ChatPitre Musical</h1>
                         <Card className="bg-dark text-white shadow">
                             <Card.Body>
                                 <Row>
@@ -31,7 +29,7 @@ function ChatPitreMusicalPage() {
                                     </Col>
                                     <Col md={6}>
                                         <strong className="text-purple">Statut :</strong>
-                                        <span>Terminé</span>
+                                        <span>Terminé (🏅 Top 10)</span>
                                     </Col>
                                 </Row>
                             </Card.Body>
@@ -46,8 +44,7 @@ function ChatPitreMusicalPage() {
                     <Col md={7}>
                         <h2 className="purple mb-3">Description du projet</h2>
                         <p style={{ color: "white", textAlign: "justify" }}>
-                            Participation à la création d'un jeu vidéo musical lors de la CGJ 2025 (Coding Game Jam),
-                            où l'objectif était de combiner gameplay et musique pour créer une expérience ludique et immersive.
+                            Participation à la création d'un jeu vidéo musical lors de la Code Game Jam 2025 (CGJ), compétition regroupant plusieurs dizaines d'équipes et plus de 300 personnes. Sur le thème imposé, notre équipe composée de <strong>6 personnes</strong> a développé en seulement 2 jours un jeu innovant, combinant gameplay interactif et musique dynamique, ce qui nous a permis de nous classer dans le <strong>Top 10 🏅</strong>. Cette expérience a été particulièrement enrichissante sur le plan technique et artistique, améliorant mes compétences en Godot, GodotLanguage et en montage vidéo.
                         </p>
                         <ul className="text-white text-start">
                             <li>Développement des mécaniques musicales interactives</li>
@@ -76,7 +73,6 @@ function ChatPitreMusicalPage() {
                         <Image src={ChatPitreMusical} alt="Démo du jeu" fluid rounded className="shadow-lg" />
                     </Col>
                 </Row>
-
             </Container>
         </Container>
     );
