@@ -7,9 +7,9 @@ import meet from "../../Assets/Projects/meet.png";
 import obc from "../../Assets/Projects/obc.png";
 import intranet from "../../Assets/Projects/intranet.png";
 import serveur from "../../Assets/Projects/serveur.png";
-import chapitreMusical from "../../Assets/Projects/chapitreMusical.png";
-import wm from "../../Assets/Projects/wm.png";
-import ww from "../../Assets/Projects/ww.png";
+import ChatPitreMusical from "../../Assets/Projects/ChatPitreMusical.png";
+import WispMadness from "../../Assets/Projects/WispMadness.png";
+import WeatherWizardry from "../../Assets/Projects/WeatherWizardry.png";
 import gopetsit from "../../Assets/Projects/gopetsit.png";
 import ndi from "../../Assets/Projects/ndi.png";
 import salt from "../../Assets/Projects/salt.png";
@@ -19,187 +19,190 @@ import escapeGame from "../../Assets/Projects/escapeGame.png";
 
 function Projects() {
   return (
-    <Container fluid className="project-section">
-      <Particle />
-      <Container>
-        <h1 className="project-heading">
-          Mes <strong className="purple"> PROJETS </strong>
-        </h1>
-        <p style={{color: "white"}}>
-          Tous les projets importants que j'ai pu réaliser depuis que j'étudie l'Informatique.
-        </p>
-        <br/>
-        <p style={{color: "white"}}>
-          Ces projets sont reliés à des apprentissages critiques présents dans le parcours RACDV (réalisation
-          d'applications) :
-          Pour cette troisième année de BUT, j'ai relié mes projets aux différent AC qui sont :
-        </p>
-        <br/>
-        <p style={{color: "white"}}>
-          Partie Réaliser :
-          AC 1 Choisir et implémenter les architectures adaptées
-          AC 2 Faire évoluer une application existante
-          AC 3 Intégrer des solutions dans un environnement de production
+      <Container fluid className="project-section">
+        <Particle />
+        <Container>
+          <h1 className="project-heading">
+            Mes <strong className="purple">PROJETS</strong>
+          </h1>
+          <p style={{color: "white"}}>
+            Voici une sélection de projets significatifs que j'ai réalisés au cours de mon parcours en informatique.
+          </p>
+          <br/>
+          <p style={{color: "white", fontWeight: "bold", textAlign: "left"}}>
+            Note : Les Apprentissages Critiques (AC) associés à chaque projet sont indiqués à titre informatif. Ces
+            mentions seront supprimées une fois les portfolios évalués.
+          </p>
+          <br/>
+          <p style={{color: "white", textAlign: "left"}}>
+            Ces projets sont associés aux Apprentissages Critiques (AC) du parcours RACDV (Réalisation d'Applications
+            Collaboratives et Distribuées). Pour cette troisième année de BUT, les projets sont liés aux AC suivants :
+          </p>
+          <br/>
+          <p style={{color: "white", textAlign: "left"}}>
+            <strong>Partie Réaliser :</strong><br/>
+            AC 1 : Choisir et implémenter des architectures adaptées<br/>
+            AC 2 : Faire évoluer une application existante<br/>
+            AC 3 : Intégrer des solutions dans un environnement de production<br/>
+            <br/>
+            <strong>Partie Optimiser :</strong><br/>
+            AC 4 : Anticiper les résultats de diverses métriques (temps d’exécution, occupation mémoire…)<br/>
+            AC 5 : Profiler, analyser et justifier le comportement d’un code existant<br/>
+            AC 6 : Choisir et utiliser des bibliothèques et méthodes dédiées au domaine d’application (imagerie,
+            immersion, intelligence artificielle, jeux vidéo, parallélisme, calcul formel…)<br/>
+            <br/>
+            <strong>Partie Collaborer :</strong><br/>
+            AC 7 : Organiser et partager une veille numérique<br/>
+            AC 8 : Identifier les enjeux de l’économie de l’innovation numérique<br/>
+            AC 9 : Guider la conduite du changement informatique au sein d’une organisation<br/>
+            AC 10 : Accompagner le management de projet informatique
+          </p>
+          <Row style={{justifyContent: "center", paddingBottom: "10px"}}>
+            <Col md={4} className="project-card">
+              <ProjectCard
+                  imgPath={meet}
+                  isBlog={false}
+                  title="Meet API"
+                  description="Développement d'une API RESTful pour la gestion d'événements et de rencontres, permettant aux utilisateurs de créer, modifier et participer à des événements. Ce projet a renforcé mes compétences en conception d'architectures adaptées (AC 1) et en intégration de solutions en production (AC 3)."
+                  ghLink="https://gitlabinfo.iutmontp.univ-montp2.fr/franceskinn/meet.git"
+                  demoLink="https://webinfo.iutmontp.univ-montp2.fr/~franceskinn/meet_vue/dist/"
+                  projectLink="/project/Meet"             />
+            </Col>
+            <Col md={4} className="project-card">
+              <ProjectCard
+                  imgPath={obc}
+                  isBlog={false}
+                  title="Oracle Backup Checker"
+                  description="Conception d'un outil automatisé pour vérifier l'intégrité des sauvegardes Oracle, assurant la fiabilité des données et la continuité des opérations. Ce projet m'a permis d'approfondir l'analyse et la justification du comportement du code existant (AC 5) ainsi que l'intégration de solutions en production (AC 3)."
+                  // ghLink=""
+                  // demoLink=""
+                  projectLink="/project/OBC"             />
+            </Col>
 
-          Partie Optimiser :
-          AC 4 Anticiper les résultats de diverses métriques (temps d’exécution, occupation
-          mémoire…)
-          AC 5 Profiler, analyser et justifier le comportement d’un code existant
-          AC 6 Choisir et utiliser des bibliothèques et méthodes dédiées au domaine
-          d’application (imagerie, immersion, intelligence artificielle, jeux vidéos,
-          parallélisme, calcul formel…)
+            <Col md={4} className="project-card">
+              <ProjectCard
+                  imgPath={intranet}
+                  isBlog={false}
+                  title="Intranet Agglo 2025"
+                  description="Développement d'un intranet pour une collectivité territoriale, facilitant la communication interne et l'accès aux ressources pour les employés. Ce projet a impliqué la sélection et l'implémentation d'architectures adaptées (AC 1) et l'accompagnement du management de projet informatique (AC 10)."
+                  // ghLink=""
+                  // demoLink=""
+                  projectLink="/project/Intranet"             />
+            </Col>
 
-          Partie Collaborer :
-          AC 7 Organiser et partager une veille numérique
-          AC 8 Identifier les enjeux de l’économie de l’innovation numérique
-          AC 9 Guider la conduite du changement informatique au sein d’une organisation
-          AC 10 Accompagner le management de projet informatique
-        </p>
-        <Row style={{justifyContent: "center", paddingBottom: "10px"}}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-                imgPath={meet}
-                isBlog={false}
-                title="Meet API"
-                description=""
-                ghLink="https://gitlabinfo.iutmontp.univ-montp2.fr/franceskinn/meet.git"
-                demoLink="https://webinfo.iutmontp.univ-montp2.fr/~franceskinn/meet_vue/dist/"
-            />
-          </Col>
+            <Col md={4} className="project-card">
+              <ProjectCard
+                  imgPath={ChatPitreMusical}
+                  isBlog={false}
+                  title="ChatPitre Musical"
+                  description="Participation à la création d'un jeu vidéo musical lors de la CGJ 2025, combinant narration interactive et mécaniques rythmiques. Cette expérience a renforcé mes compétences en utilisation de bibliothèques dédiées au domaine des jeux vidéo (AC 6) et en organisation d'une veille technologique (AC 7)."
+                  ghLink="https://github.com/Nolucci/CGJ2025"
+                  demoLink="https://nolucci.itch.io/chat-pitre-musical"
+                  projectLink="/project/ChatPitreMusical"             />
+            </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-                imgPath={obc}
-                isBlog={false}
-                title="Oracle Backup Checker"
-                description=""
-                // ghLink=""
-                // demoLink=""
-            />
-          </Col>
+            <Col md={4} className="project-card">
+              <ProjectCard
+                  imgPath={WispMadness}
+                  isBlog={false}
+                  title="Wisp Madness"
+                  description="Développement d'un jeu vidéo dans le cadre de la CGJ 2023, mettant en scène des esprits dans une aventure palpitante. Ce projet m'a permis de choisir et d'utiliser des bibliothèques spécifiques au domaine du jeu vidéo (AC 6) et de collaborer efficacement au sein d'une équipe de développement (AC 10)."
+                  ghLink="https://github.com/LokiAquila/WispMadness"
+                  demoLink="https://nolucci.itch.io/wisp-madness"
+                  projectLink="/project/WispMadness"             />
+            </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-                imgPath={intranet}
-                isBlog={false}
-                title="Intranet Agglo 2025"
-                description=""
-                // ghLink=""
-                // demoLink=""
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-                imgPath={chapitreMusical}
-                isBlog={false}
-                title="Chapitre Musical"
-                description=""
-                ghLink="https://github.com/Nolucci/CGJ2025"
-                demoLink="https://nolucci.itch.io/chat-pitre-musical"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-                imgPath={wm}
-                isBlog={false}
-                title="Wisp Madness"
-                description=""
-                ghLink="https://github.com/LokiAquila/WispMadness"
-                demoLink="https://nolucci.itch.io/wisp-madness"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-                imgPath={ww}
-                isBlog={false}
-                title="Weather Wizardry"
-                description=""
-                // ghLink=""
-                demoLink="https://nolucci.itch.io/weather-wizardry"
-            />
-          </Col>
-
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-                imgPath={ndi}
-                isBlog={false}
-                title="Nuit de l'Info"
-                description=""
-                ghLink="https://gitlabinfo.iutmontp.univ-montp2.fr/franceskinn/ndi-2023"
-                // demoLink=""
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-                imgPath={salt}
-                isBlog={false}
-                title="S.Alt"
-                description=""
-                ghLink="https://gitlabinfo.iutmontp.univ-montp2.fr/sae-semestre-31/salt.git"
-                // demoLink=""
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-                imgPath={rail}
-                isBlog={false}
-                title="Les Aventuriers du Rail / Graphe"
-                description=""
-                ghLink="https://gitlabinfo.iutmontp.univ-montp2.fr/ihm/archives/etu/delucae-franceskinn-oubramk/railsihm"
-                // demoLink=""
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-                imgPath={gopetsit}
-                isBlog={false}
-                title="GoPetSit"
-                description=""
-                // ghLink=""
-                // demoLink=""
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-                imgPath={mastermind}
-                isBlog={false}
-                title="Mastermind"
-                description=""
-                ghLink="github.com/Nolucci/MasterMind"
-                // demoLink=""
-            />
-          </Col>
+            <Col md={4} className="project-card">
+              <ProjectCard
+                  imgPath={WeatherWizardry}
+                  isBlog={false}
+                  title="Weather Wizardry"
+                  description="Création d'un jeu vidéo basé sur la manipulation des éléments météorologiques pour résoudre des énigmes. Ce projet a consolidé mes compétences en conception de mécaniques de jeu innovantes (AC 6) et en gestion de projet créatif (AC 10)."
+                  // ghLink=""
+                  demoLink="https://nolucci.itch.io/weather-wizardry"
+                  projectLink="/project/WeatherWizardry"             />
+            </Col>
 
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-                imgPath={serveur}
-                isBlog={false}
-                title="Serveur"
-                description=""
-                // ghLink=""
-                // demoLink=""
-            />
-          </Col>
+            <Col md={4} className="project-card">
+              <ProjectCard
+                  imgPath={ndi}
+                  isBlog={false}
+                  title="Nuit de l'Info"
+                  description="Participation à la 'Nuit de l'Info', un hackathon national où des équipes d'étudiants développent des applications innovantes en une nuit. Cette expérience a renforcé mes compétences en travail collaboratif (AC 10) et en organisation d'une veille technologique (AC 7)."
+                  ghLink="https://gitlabinfo.iutmontp.univ-montp2.fr/franceskinn/ndi-2023"
+                  // demoLink=""
+                  projectLink="/project/NDI"             />
+            </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-                imgPath={escapeGame}
-                isBlog={false}
-                title="Escape Game"
-                description=""
-                ghLink="https://github.com/Nolucci/Grizly-SAE1.git"
-                // demoLink=""
-            />
-          </Col>
-        </Row>
+            <Col md={4} className="project-card">
+              <ProjectCard
+                  imgPath={salt}
+                  isBlog={false}
+                  title="S.Alt"
+                  description="Développement d'une application mobile visant à promouvoir des alternatives durables et écologiques dans la vie quotidienne. Ce projet m'a permis d'approfondir mes compétences en choix et utilisation de bibliothèques dédiées au domaine de l'application (AC 6) et en anticipation des résultats de diverses métriques (AC 4)."
+                  ghLink="https://gitlabinfo.iutmontp.univ-montp2.fr/sae-semestre-31/salt.git"
+                  // demoLink=""
+                  projectLink="/project/SAlt"             />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCard
+                  imgPath={rail}
+                  isBlog={false}
+                  title="Les Aventuriers des Rail / Graphe"
+                  description="Réalisation d'une application simulant le jeu 'Les Aventuriers du Rail', mettant en œuvre des structures de données avancées pour la gestion des graphes. Ce projet a renforcé mes compétences en choix et utilisation de bibliothèques spécifiques (AC 6) et en analyse du comportement du code (AC 5)."
+                  ghLink="https://gitlabinfo.iutmontp.univ-montp2.fr/ihm/archives/etu/delucae-franceskinn-oubramk/railsihm"
+                  // demoLink=""
+                  projectLink="/project/AventurierDesRails" />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCard
+                  imgPath={gopetsit}
+                  isBlog={false}
+                  title="GoPetSit"
+                  description="Développement d'une plateforme de mise en relation entre propriétaires d'animaux et pet-sitters, facilitant la garde d'animaux de compagnie. Ce projet a impliqué la conception d'architectures adaptées (AC 1) et l'intégration de solutions en production (AC 3)."
+                  // ghLink=""
+                  // demoLink=""
+                  projectLink="/project/GoPetSit"             />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCard
+                  imgPath={mastermind}
+                  isBlog={false}
+                  title="Mastermind"
+                  description="Création d'une version numérique du jeu de logique 'Mastermind', avec une interface utilisateur intuitive et des fonctionnalités avancées. Ce projet m'a permis de profiler et analyser le comportement du code (AC 5) et d'optimiser les performances de l'application (AC 4)."
+                  ghLink="https://github.com/Nolucci/MasterMind"
+                  // demoLink=""
+                  projectLink="/project/Mastermind"             />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCard
+                  imgPath={serveur}
+                  isBlog={false}
+                  title="Serveur"
+                  description="Mise en place et administration d'un serveur dédié pour héberger diverses applications web, assurant la sécurité et la fiabilité des services. Ce projet a renforcé mes compétences en intégration de solutions dans un environnement de production (AC 3) et en gestion de l'infrastructure serveur."
+                  // ghLink=""
+                  // demoLink=""
+                  projectLink="/project/Serveur"             />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCard
+                  imgPath={escapeGame}
+                  isBlog={false}
+                  title="Escape Game"
+                  description="Conception et développement d'un jeu d'évasion immersif, combinant des énigmes complexes et une narration captivante. Ce projet a renforcé mes compétences en choix et utilisation de bibliothèques dédiées au domaine du jeu (AC 6) et en organisation et partage d'une veille numérique (AC 7)."
+                  ghLink="https://github.com/Nolucci/Grizly-SAE1.git"
+                  // demoLink=""
+                  projectLink="/project/EscapeGame"             />
+            </Col>
+          </Row>
+        </Container>
       </Container>
-    </Container>
   );
 }
 
