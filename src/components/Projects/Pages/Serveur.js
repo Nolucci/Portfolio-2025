@@ -1,7 +1,8 @@
 import React from "react";
-import { Container, Row, Col, Card, Image } from "react-bootstrap";
+import { Container, Row, Col, Card, Image, Button } from "react-bootstrap";
 import Particle from "../../Particle";
-import serveur from "../../../Assets/Projects/serveur.png"; // adapte selon ton projet
+import serveur from "../../../Assets/Projects/serveur.png"; // vérifie le chemin
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 function ServeurProject() {
     return (
@@ -10,25 +11,25 @@ function ServeurProject() {
             <Container>
                 <Row className="align-items-center mb-5">
                     <Col md={7}>
-                        <h1 className="project-heading mb-4">Serveur Dédié & Administration</h1>
+                        <h1 className="project-heading mb-4">Serveur dédié & Administration</h1>
                         <Card className="bg-dark text-white shadow">
                             <Card.Body>
                                 <Row>
                                     <Col md={6} className="mb-3">
                                         <strong className="text-purple">Cadre du projet :</strong>
-                                        <span>SAÉ Infrastructure, BUT Informatique</span>
+                                        <span>Projet Personnel de création de serveur</span>
                                     </Col>
                                     <Col md={6} className="mb-3">
                                         <strong className="text-purple">Technologies :</strong>
-                                        <span>Linux, Apache, Nginx, Docker</span>
+                                        <span>Debian, Shell, Docker</span>
                                     </Col>
                                     <Col md={6}>
                                         <strong className="text-purple">Rôle :</strong>
-                                        <span>Administrateur Système & Réseau</span>
+                                        <span>Chef de projet & Administrateur Système</span>
                                     </Col>
                                     <Col md={6}>
                                         <strong className="text-purple">Statut :</strong>
-                                        <span>Terminé</span>
+                                        <span>En cours</span>
                                     </Col>
                                 </Row>
                             </Card.Body>
@@ -43,27 +44,36 @@ function ServeurProject() {
                     <Col md={7}>
                         <h2 className="purple mb-3">Description du projet</h2>
                         <p style={{ color: "white", textAlign: "justify" }}>
-                            Mise en place et gestion complète d'un serveur dédié pour héberger plusieurs applications web, en assurant la sécurité, la performance et la continuité des services. Ce projet m'a permis de renforcer mes compétences en intégration de solutions dans un environnement de production (AC 3) et en administration de systèmes et réseaux.
+                            Ce projet personnel ambitieux consiste en la création complète, la configuration et la sécurisation d'un serveur dédié destiné à accueillir diverses solutions telles que des sites web ou serveurs de jeux. Réalisé à partir d'un ancien PC réhabilité, ce projet sur plusieurs mois implique chaque étape, depuis l'installation du système Debian jusqu'à la configuration avancée des logiciels via Shell et Docker. En collaboration avec une équipe de passionnés, ce projet renforce mes compétences en gestion de projet, en administration système, sécurité informatique, et automatisation d'infrastructure (AC 3).
                         </p>
                         <ul className="text-white text-start">
-                            <li>Configuration et sécurisation d'environnements Linux</li>
-                            <li>Déploiement automatisé avec Docker et gestion d'applications web via Apache et Nginx</li>
-                            <li>Monitoring, maintenance proactive et gestion de l'infrastructure serveur</li>
+                            <li>Assemblage matériel et installation initiale sous Debian</li>
+                            <li>Automatisation via Docker et sécurisation avancée du serveur</li>
+                            <li>Gestion complète du système : monitoring, maintenance et mise à jour</li>
                         </ul>
                     </Col>
                     <Col md={5}>
-                        <Image src={serveur} alt="Description projet" fluid rounded className="shadow-lg" />
+                        <Image src={serveur} alt="Description serveur" fluid rounded className="shadow-lg" />
                     </Col>
                 </Row>
 
                 <Row className="align-items-center mt-5">
-                    <Col md={12}>
-                        <h2 className="purple mb-3">Compétences clés développées</h2>
-                        <p style={{ color: "white", textAlign: "justify" }}>
-                            Cette expérience m'a permis de maîtriser les aspects critiques d'administration de serveurs, de sécurité informatique et de gestion d'applications en environnement de production.
-                        </p>
+                    <Col md={7}>
+                        <h2 className="purple mb-3">Liens du projet</h2>
+                        <div className="mt-4">
+                            <Button variant="outline-light" href="https://webinfo.iutmontp.univ-montp2.fr/~franceskinn/Site/ressources/documents/SAE-Serveur.pdf" target="_blank" className="me-3">
+                                <FaExternalLinkAlt /> Visualiser le projet
+                            </Button>
+                            <Button variant="outline-light" href="https://webinfo.iutmontp.univ-montp2.fr/~franceskinn/Site/ressources/documents/Specifications-Serveur.pdf" target="_blank">
+                                <FaExternalLinkAlt /> Spécifications techniques
+                            </Button>
+                        </div>
+                    </Col>
+                    <Col md={5}>
+                        <Image src={serveur} alt="Documentation serveur" fluid rounded className="shadow-lg" />
                     </Col>
                 </Row>
+
             </Container>
         </Container>
     );
