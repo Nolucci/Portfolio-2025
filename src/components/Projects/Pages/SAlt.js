@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Card, Image, Button } from "react-bootstrap";
 import Particle from "../../Particle";
-import salt from "../../../Assets/Projects/salt.png"; // adapte selon ton projet
+import salt from "../../../Assets/Projects/salt.png";
 import { FaGithub } from "react-icons/fa";
 
 function SaltProject() {
@@ -11,7 +11,7 @@ function SaltProject() {
             <Container>
                 <Row className="align-items-center mb-5">
                     <Col md={7}>
-                        <h1 className="project-heading mb-4">SALT – Solutions Alternatives</h1>
+                        <h1 className="project-heading mb-4">S.ALT – Stages et Alternances</h1>
                         <Card className="bg-dark text-white shadow">
                             <Card.Body>
                                 <Row>
