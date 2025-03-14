@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col, Card, Image, Button } from "react-bootstrap";
 import Particle from "../../Particle";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
-import wispMadness from "../../../Assets/Projects/WispMadness.png"; // adapte selon ton projet
+import wispMadness from "../../../Assets/Projects/WispMadness.png";
 
 function WispMadness() {
     return (
@@ -11,32 +11,32 @@ function WispMadness() {
             <Container>
                 <Row className="align-items-center mb-5">
                     <Col md={7}>
-                        <h1 className="project-heading mb-4">Wisp Madness</h1>
+                        <h1 className="project-heading mb-4">Wisp Madness : Légende éthérée</h1>
                         <Card className="bg-dark text-white shadow">
                             <Card.Body>
                                 <Row>
                                     <Col md={6} className="mb-3">
                                         <strong className="text-purple">Cadre du projet :</strong>
-                                        <span>SAÉ de développement, CGJ 2023</span>
+                                        <span>Code Game Jam 2024</span>
                                     </Col>
                                     <Col md={6} className="mb-3">
                                         <strong className="text-purple">Technologies :</strong>
-                                        <span>Unity, C#, Git</span>
+                                        <span>C#, Godot</span>
                                     </Col>
                                     <Col md={6}>
                                         <strong className="text-purple">Rôle :</strong>
-                                        <span>Développeur Gameplay & Collaborateur technique</span>
+                                        <span>Développeur Backend & Organisation équipe</span>
                                     </Col>
                                     <Col md={6}>
                                         <strong className="text-purple">Statut :</strong>
-                                        <span>Terminé</span>
+                                        <span>Terminé (🥈 2ᵉ prix)</span>
                                     </Col>
                                 </Row>
                             </Card.Body>
                         </Card>
                     </Col>
                     <Col md={5}>
-                        <Image src={"../../../Assets/Projects/WispMadness.png"} alt="Wisp Madness" fluid rounded className="shadow-lg" />
+                        <Image src={wispMadness} alt="Wisp Madness" fluid rounded className="shadow-lg" />
                     </Col>
                 </Row>
 
@@ -44,16 +44,16 @@ function WispMadness() {
                     <Col md={7}>
                         <h2 className="purple mb-3">Description du projet</h2>
                         <p style={{ color: "white", textAlign: "justify" }}>
-                            Développement d'un jeu vidéo lors de la CGJ 2023, mettant en scène des esprits dans une aventure immersive et palpitante. Ce projet m'a permis de choisir et d'utiliser des bibliothèques spécifiques au domaine du jeu vidéo (AC 6) et de collaborer efficacement au sein d'une équipe de développement (AC 10).
+                            Développement d'un jeu vidéo en équipe à l'occasion de la Code Game Jam 2024, compétition regroupant 43 équipes. Sur le thème « Légende éthérée », notre équipe a développé en seulement 2 jours un jeu de type <strong>survival game</strong>, original et captivant, nous permettant de décrocher le <strong>deuxième prix 🥈</strong>. Cette expérience a été très enrichissante techniquement et humainement, approfondissant mes connaissances en C# et en Godot tout en renforçant mon organisation d'équipe (AC 10).
                         </p>
                         <ul className="text-white text-start">
-                            <li>Développement de mécaniques interactives en C# sur Unity</li>
-                            <li>Intégration de bibliothèques spécifiques dédiées au jeu vidéo</li>
-                            <li>Travail collaboratif via Git pour la gestion de versions</li>
+                            <li>Conception du gameplay et implémentation des mécaniques en C# sur Godot</li>
+                            <li>Organisation efficace de l'équipe (répartition des tâches, coordination technique)</li>
+                            <li>Création des scripts des personnages et éléments du jeu (ennemis, interactions)</li>
                         </ul>
                     </Col>
                     <Col md={5}>
-                        <Image src={"../../../Assets/Projects/WispMadness.png"} alt="Gameplay Wisp Madness" fluid rounded className="shadow-lg" />
+                        <Image src={wispMadness} alt="Gameplay Wisp Madness" fluid rounded className="shadow-lg" />
                     </Col>
                 </Row>
 
@@ -70,7 +70,7 @@ function WispMadness() {
                         </div>
                     </Col>
                     <Col md={5}>
-                        <Image src={"../../../Assets/Projects/WispMadness.png"} alt="Démo du projet" fluid rounded className="shadow-lg" />
+                        <Image src={wispMadness} alt="Démo Wisp Madness" fluid rounded className="shadow-lg" />
                     </Col>
                 </Row>
             </Container>
