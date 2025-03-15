@@ -68,7 +68,7 @@ function SaltProject() {
                         <br/>
                         <h2 className="blue mb-3">Liens du projet</h2>
                         <div className="mt-4">
-                            <Button variant="outline-light" href="https://github.com/tonprojet" target="_blank">
+                            <Button variant="outline-light" href="https://gitlabinfo.iutmontp.univ-montp2.fr/sae-semestre-31/salt" target="_blank">
                                 <FaGithub /> GitHub
                             </Button>
                         </div>
