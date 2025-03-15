@@ -1,8 +1,7 @@
 import React from "react";
-import { Container, Row, Col, Card, Image, Button, ListGroup } from "react-bootstrap";
+import { Container, Row, Col, Card, Image, ListGroup } from "react-bootstrap";
 import Particle from "../../Particle";
 import gopet from "../../../Assets/Projects/gopetsit.png";
-import { FaGitlab, FaExternalLinkAlt } from "react-icons/fa";
 
 function GoPet() {
     return (
@@ -35,9 +34,6 @@ function GoPet() {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col md={5}>
-                        <Image src={gopet} alt="GoPet Application" fluid rounded className="shadow-lg" />
-                    </Col>
                 </Row>
 
                 <Row className="align-items-center mb-5">
@@ -55,7 +51,7 @@ function GoPet() {
                         </ListGroup>
                     </Col>
                     <Col md={5}>
-                        <Image src={gopet} alt="Interface utilisateur GoPet" fluid rounded className="shadow-lg" />
+                        <Image src={gopet} alt="GoPet Application" fluid rounded className="shadow-lg" />
                     </Col>
                 </Row>
 
@@ -65,19 +61,6 @@ function GoPet() {
                         <p style={{ color: "white", textAlign: "justify" }}>
                             J'ai participé activement à la conception et au développement de l'application, notamment en réalisant l'architecture complète, l'intégration de l'API, et en assurant le déploiement de la plateforme sur un serveur de production.
                         </p>
-                        <br/>
-                        <h2 className="blue mb-3">Liens du projet</h2>
-                        <div className="mt-4">
-                            <Button variant="outline-light" href="https://gitlab.com/projet-gopet" target="_blank" className="me-3">
-                                <FaGitlab /> GitLab
-                            </Button>
-                            <Button variant="outline-light" href="https://gopet-demo.com" target="_blank">
-                                <FaExternalLinkAlt /> Démo en ligne
-                            </Button>
-                        </div>
-                    </Col>
-                    <Col md={5}>
-                        <Image src={gopet} alt="Capture écran GoPet" fluid rounded className="shadow-lg" />
                     </Col>
                 </Row>
             </Container>
