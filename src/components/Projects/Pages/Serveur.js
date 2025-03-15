@@ -1,7 +1,7 @@
 import React from "react";
-import { Container, Row, Col, Card, Image, Button } from "react-bootstrap";
+import { Container, Row, Col, Card, Image, Button, ListGroup } from "react-bootstrap";
 import Particle from "../../Particle";
-import serveur from "../../../Assets/Projects/serveur.png"; // vérifie le chemin
+import serveur from "../../../Assets/Projects/serveur.png";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 function ServeurProject() {
@@ -12,7 +12,7 @@ function ServeurProject() {
                 <Row className="align-items-center mb-5">
                     <Col md={7}>
                         <h1 className="project-heading mb-4">Serveur dédié & Administration</h1>
-                        <Card className="bg-dark text-white shadow">
+                        <Card className="bg-dark text-white shadow rounded-3">
                             <Card.Body>
                                 <Row>
                                     <Col md={6} className="mb-3">
@@ -42,15 +42,17 @@ function ServeurProject() {
 
                 <Row className="align-items-center mb-5">
                     <Col md={7}>
-                        <h2 className="blue mb-3">Description du projet</h2>
+                        <h2 className="blue mb-3">Description détaillée</h2>
                         <p style={{ color: "white", textAlign: "justify" }}>
-                            Ce projet personnel ambitieux consiste en la création complète, la configuration et la sécurisation d'un serveur dédié destiné à accueillir diverses solutions telles que des sites web ou serveurs de jeux. Réalisé à partir d'un ancien PC réhabilité, ce projet sur plusieurs mois implique chaque étape, depuis l'installation du système Debian jusqu'à la configuration avancée des logiciels via Shell et Docker. En collaboration avec une équipe de passionnés, ce projet renforce mes compétences en gestion de projet, en administration système, sécurité informatique, et automatisation d'infrastructure (AC 3).
+                            Ce projet personnel consiste à créer, configurer et sécuriser un serveur dédié hébergeant divers services tels que des sites web ou serveurs de jeux. Réalisé à partir d'un ancien PC réhabilité, ce projet implique l'installation du système Debian, l'automatisation des tâches via Docker et Shell, ainsi que la sécurisation avancée du serveur.
                         </p>
-                        <ul className="text-white text-start">
-                            <li>Assemblage matériel et installation initiale sous Debian</li>
-                            <li>Automatisation via Docker et sécurisation avancée du serveur</li>
-                            <li>Gestion complète du système : monitoring, maintenance et mise à jour</li>
-                        </ul>
+                        <br/>
+                        <h4 className="text-white">Points clés réalisés :</h4>
+                        <ListGroup variant="flush" className="text-white text-start">
+                            <ListGroup.Item className="bg-dark text-white border-0">Assemblage matériel et installation de Debian</ListGroup.Item>
+                            <ListGroup.Item className="bg-dark text-white">Automatisation des services avec Docker et sécurisation avancée</ListGroup.Item>
+                            <ListGroup.Item className="bg-dark text-white">Monitoring et maintenance du serveur en production</ListGroup.Item>
+                        </ListGroup>
                     </Col>
                     <Col md={5}>
                         <Image src={serveur} alt="Description serveur" fluid rounded className="shadow-lg" />
@@ -73,7 +75,6 @@ function ServeurProject() {
                         <Image src={serveur} alt="Documentation serveur" fluid rounded className="shadow-lg" />
                     </Col>
                 </Row>
-
             </Container>
         </Container>
     );
