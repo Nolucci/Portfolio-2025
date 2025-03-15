@@ -1,8 +1,8 @@
 import React from "react";
-import { Container, Row, Col, Card, Image, Button } from "react-bootstrap";
+import { Container, Row, Col, Card, Image, Button, ListGroup } from "react-bootstrap";
 import Particle from "../../Particle";
-import escapeGame from "../../../Assets/Projects/escapeGame.png"; // adapte selon ton projet
 import { FaGithub } from "react-icons/fa";
+import escapeGame from "../../../Assets/Projects/escapeGame.png";
 
 function EscapeGameProject() {
     return (
@@ -12,7 +12,7 @@ function EscapeGameProject() {
                 <Row className="align-items-center mb-5">
                     <Col md={7}>
                         <h1 className="project-heading mb-4">Escape Game Immersif</h1>
-                        <Card className="bg-dark text-white shadow">
+                        <Card className="bg-dark text-white shadow rounded-3">
                             <Card.Body>
                                 <Row>
                                     <Col md={6} className="mb-3">
@@ -35,22 +35,21 @@ function EscapeGameProject() {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col md={5}>
-                        <Image src={escapeGame} alt="Escape Game" fluid rounded className="shadow-lg" />
-                    </Col>
                 </Row>
 
                 <Row className="align-items-center mb-5">
                     <Col md={7}>
-                        <h2 className="blue mb-3">Description du projet</h2>
+                        <h2 className="blue mb-3">Description détaillée</h2>
                         <p style={{ color: "white", textAlign: "justify" }}>
-                            Conception et réalisation d'un jeu d'évasion immersif intégrant des énigmes complexes, des mécaniques interactives et une histoire captivante. Ce projet a renforcé mes compétences en sélection et utilisation de bibliothèques spécifiques au domaine du jeu vidéo (AC 6), ainsi qu'en organisation et partage efficace d'une veille numérique (AC 7).
+                            Conception et réalisation d'un jeu d'évasion immersif intégrant des énigmes complexes, des mécaniques interactives et une histoire captivante. Ce projet a renforcé mes compétences en sélection et utilisation de bibliothèques spécifiques au domaine du jeu vidéo, ainsi qu'en organisation et partage efficace d'une veille numérique.
                         </p>
-                        <ul className="text-white text-start">
-                            <li>Développement d'énigmes interactives en C# avec Unity</li>
-                            <li>Conception d'une narration immersive et cohérente</li>
-                            <li>Veille technologique active autour des mécaniques de jeu innovantes</li>
-                        </ul>
+                        <br/>
+                        <h4 className="text-white">Points clés réalisés :</h4>
+                        <ListGroup variant="flush" className="text-white text-start">
+                            <ListGroup.Item className="bg-dark text-white border-0">Développement d'énigmes interactives en C# avec Unity</ListGroup.Item>
+                            <ListGroup.Item className="bg-dark text-white">Conception d'une narration immersive et cohérente</ListGroup.Item>
+                            <ListGroup.Item className="bg-dark text-white">Veille technologique active autour des mécaniques de jeu innovantes</ListGroup.Item>
+                        </ListGroup>
                     </Col>
                     <Col md={5}>
                         <Image src={escapeGame} alt="Description projet" fluid rounded className="shadow-lg" />
@@ -59,15 +58,17 @@ function EscapeGameProject() {
 
                 <Row className="align-items-center mt-5">
                     <Col md={7}>
+                        <h2 className="blue mb-3">Ma contribution</h2>
+                        <p style={{ color: "white", textAlign: "justify" }}>
+                            J'ai été impliqué activement dans le développement et la conception de ce projet, en prenant en charge plusieurs aspects clés :
+                        </p>
+                        <br/>
                         <h2 className="blue mb-3">Liens du projet</h2>
                         <div className="mt-4">
                             <Button variant="outline-light" href="https://github.com/Nolucci/Grizly-SAE1.git" target="_blank">
                                 <FaGithub /> GitHub
                             </Button>
                         </div>
-                    </Col>
-                    <Col md={5}>
-                        <Image src={escapeGame} alt="Illustration du projet" fluid rounded className="shadow-lg" />
                     </Col>
                 </Row>
             </Container>
