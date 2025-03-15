@@ -35,9 +35,6 @@ function NDI() {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col md={5}>
-                        <Image src={ndi} alt="Nuit de l'Info 2023" fluid rounded className="shadow-lg" />
-                    </Col>
                 </Row>
 
                 <Row className="align-items-center mb-5">
@@ -55,7 +52,7 @@ function NDI() {
                         </ListGroup>
                     </Col>
                     <Col md={5}>
-                        <Image src={ndi} alt="Interface du projet Nuit de l'Info" fluid rounded className="shadow-lg" />
+                        <Image src={ndi} alt="Nuit de l'Info 2023" fluid rounded className="shadow-lg" />
                     </Col>
                 </Row>
 
@@ -70,9 +67,6 @@ function NDI() {
                                 <FaGitlab /> Voir sur GitLab
                             </Button>
                         </div>
-                    </Col>
-                    <Col md={5}>
-                        <Image src={ndi} alt="Aperçu du site réalisé" fluid rounded className="shadow-lg" />
                     </Col>
                 </Row>
             </Container>
