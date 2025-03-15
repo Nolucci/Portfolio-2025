@@ -11,7 +11,7 @@ html {
     rgba(10, 19, 22, 0.86)
   );
 
-  --imp-text-color: #5fc8f8;
+  --imp-text-color: #00DEE0;
 }
 
 .blue {
@@ -281,7 +281,7 @@ button:focus {
 }
 
 .main-name {
-  color: #5fc8f8;
+  color: #00DEE0;
 }
 
 .Typewriter__wrapper {
@@ -439,7 +439,7 @@ button:focus {
 }
 
 .blockquote-footer {
-  color: #88b3c0 !important;
+  color: #00DEE0 !important;
 }
 /* --------- */
 /* Projects */
