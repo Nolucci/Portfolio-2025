@@ -1,7 +1,8 @@
 import React from "react";
-import { Container, Row, Col, Card, Image } from "react-bootstrap";
+import { Container, Row, Col, Card, Image, Button, ListGroup } from "react-bootstrap";
 import Particle from "../../Particle";
-import obc from "../../../Assets/Projects/obc.png"; // adapte le chemin selon ton projet
+import obc from "../../../Assets/Projects/obc.png";
+import { FaGithub } from "react-icons/fa";
 
 function OracleBackupChecker() {
     return (
@@ -11,7 +12,7 @@ function OracleBackupChecker() {
                 <Row className="align-items-center mb-5">
                     <Col md={7}>
                         <h1 className="project-heading mb-4">Oracle Backup Checker</h1>
-                        <Card className="bg-dark text-white shadow">
+                        <Card className="bg-dark text-white shadow rounded-3">
                             <Card.Body>
                                 <Row>
                                     <Col md={6} className="mb-3">
@@ -41,31 +42,39 @@ function OracleBackupChecker() {
 
                 <Row className="align-items-center mb-5">
                     <Col md={7}>
-                        <h2 className="blue mb-3">Description du projet</h2>
+                        <h2 className="blue mb-3">Description détaillée</h2>
                         <p style={{ color: "white", textAlign: "justify" }}>
-                            Conception d'un outil automatisé pour vérifier l'intégrité des sauvegardes Oracle,
-                            assurant la fiabilité des données et la continuité des opérations. Ce projet m'a
-                            permis d'approfondir l'analyse et la justification du comportement du code existant (AC 5)
-                            ainsi que l'intégration de solutions en production (AC 3).
+                            Conception d'un outil automatisé pour vérifier l'intégrité des sauvegardes Oracle, assurant la fiabilité des données et la continuité des opérations. Ce projet a nécessité une approche approfondie de l'analyse des métriques et l'automatisation des contrôles en environnement de production.
                         </p>
-                        <ul className="text-white text-start">
-                            <li>Automatisation des vérifications de sauvegardes via scripts Bash et Python</li>
-                            <li>Analyse approfondie et optimisation du comportement du code existant</li>
-                            <li>Intégration et validation en environnement de production Oracle DB</li>
-                        </ul>
+                        <br/>
+                        <h4 className="text-white">Points clés réalisés :</h4>
+                        <ListGroup variant="flush" className="text-white text-start">
+                            <ListGroup.Item className="bg-dark text-white border-0">Automatisation des vérifications des sauvegardes via scripts Bash et Python</ListGroup.Item>
+                            <ListGroup.Item className="bg-dark text-white">Analyse approfondie et optimisation du code existant</ListGroup.Item>
+                            <ListGroup.Item className="bg-dark text-white">Validation et intégration en environnement Oracle DB</ListGroup.Item>
+                        </ListGroup>
                     </Col>
                     <Col md={5}>
-                        <Image src={obc} alt="Description projet" fluid rounded className="shadow-lg" />
+                        <Image src={obc} alt="Interface utilisateur Oracle Backup Checker" fluid rounded className="shadow-lg" />
                     </Col>
                 </Row>
 
                 <Row className="align-items-center mt-5">
-                    <Col md={12}>
-                        <h2 className="blue mb-3">Contribution & Apprentissage</h2>
+                    <Col md={7}>
+                        <h2 className="blue mb-3">Ma contribution</h2>
                         <p style={{ color: "white", textAlign: "justify" }}>
-                            Ce projet m'a permis d'approfondir mes compétences techniques en gestion automatisée des processus critiques (AC 1)
-                            et en anticipation et justification des métriques de performance (AC 4, AC 5).
+                            J'ai participé activement à l'analyse et à l'amélioration des scripts de vérification des sauvegardes, en optimisant leur exécution et en intégrant des alertes automatiques en cas de défaillance. J'ai également documenté le processus pour assurer la maintenabilité de l'outil.
                         </p>
+                        <br/>
+                        <h2 className="blue mb-3">Liens du projet</h2>
+                        <div className="mt-4">
+                            <Button variant="outline-light" href="https://github.com/tonrepo/OracleBackupChecker" target="_blank">
+                                <FaGithub /> GitHub
+                            </Button>
+                        </div>
+                    </Col>
+                    <Col md={5}>
+                        <Image src={obc} alt="Capture écran Oracle Backup Checker" fluid rounded className="shadow-lg" />
                     </Col>
                 </Row>
             </Container>
