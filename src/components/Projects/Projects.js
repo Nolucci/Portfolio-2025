@@ -62,6 +62,8 @@ function Projects() {
               <Button variant="outline-light" href="/project/Meet" target="_blank">Meet API</Button>
               <Button variant="outline-light" href="/project/OBC" target="_blank">Oracle Backup Checker</Button>
               <Button variant="outline-light" href="/project/SAlt" target="_blank">S.Alt</Button>
+              <Button variant="outline-light" href="/project/GoPetSit" target="_blank">GoPetSit</Button>
+              <Button variant="outline-light" href="/project/Serveur" target="_blank">Serveur</Button>
             </div>
             <br/>
 
@@ -70,6 +72,7 @@ function Projects() {
             <div>
               <Button variant="outline-light" href="/project/SAlt" target="_blank">S.Alt</Button>
               <Button variant="outline-light" href="/project/Mastermind" target="_blank">Mastermind</Button>
+              <Button variant="outline-light" href="/project/WispMadness" target="_blank">Wisp Madness</Button>
             </div>
             <br/>
 
@@ -77,6 +80,7 @@ function Projects() {
             <div>
               <Button variant="outline-light" href="/project/OBC" target="_blank">Oracle Backup Checker</Button>
               <Button variant="outline-light" href="/project/Mastermind" target="_blank">Mastermind</Button>
+              <Button variant="outline-light" href="/project/AventurierDesRails" target="_blank">Les Aventuriers des Rail</Button>
             </div>
             <br/>
 
@@ -86,6 +90,8 @@ function Projects() {
               <Button variant="outline-light" href="/project/WispMadness" target="_blank">Wisp Madness</Button>
               <Button variant="outline-light" href="/project/WeatherWizardry" target="_blank">Weather Wizardry</Button>
               <Button variant="outline-light" href="/project/EscapeGame" target="_blank">Escape Game</Button>
+              <Button variant="outline-light" href="/project/SAlt" target="_blank">S.Alt</Button>
+              <Button variant="outline-light" href="/project/AventurierDesRails" target="_blank">Les Aventuriers des Rail</Button>
             </div>
             <br/>
 
@@ -114,8 +120,11 @@ function Projects() {
             <div>
               <Button variant="outline-light" href="/project/Intranet" target="_blank">Intranet Agglo 2025</Button>
               <Button variant="outline-light" href="/project/WispMadness" target="_blank">Wisp Madness</Button>
+              <Button variant="outline-light" href="/project/ChatPitreMusical" target="_blank">ChatPitre Musical</Button>
+              <Button variant="outline-light" href="/project/NuitDeLInfo" target="_blank">Nuit de l'Info</Button>
             </div>
           </p>
+
 
 
           <Row style={{justifyContent: "center", paddingBottom: "10px"}}>
@@ -124,7 +133,7 @@ function Projects() {
                   imgPath={meet}
                   isBlog={false}
                   title="Meet API"
-                  description="Développement d'une API RESTful pour la gestion d'événements et de rencontres, permettant aux utilisateurs de créer, modifier et participer à des événements. Ce projet a renforcé mes compétences en choix et implémentation d’architectures adaptées (AC 1) et en intégration de solutions dans un environnement de production (AC 3)."
+                  description="Développement d'une API RESTful pour la gestion d'événements et de rencontres, permettant aux utilisateurs de créer, modifier et participer à des événements. Ce projet a renforcé mes compétences en choix et implémentation d’architectures adaptées (AC 1), en intégration de solutions dans un environnement de production (AC 3) et en travail collaboratif (AC 10)."
                   ghLink="https://gitlabinfo.iutmontp.univ-montp2.fr/franceskinn/meet.git"
                   demoLink="https://webinfo.iutmontp.univ-montp2.fr/~franceskinn/meet_vue/dist/"
                   projectLink="/project/Meet"
@@ -136,7 +145,7 @@ function Projects() {
                   imgPath={obc}
                   isBlog={false}
                   title="Oracle Backup Checker"
-                  description="Conception d'un outil automatisé pour vérifier l'intégrité des sauvegardes Oracle, assurant la fiabilité des données et la continuité des opérations. Ce projet m'a permis de profiler et analyser le comportement du code (AC 5) ainsi que d’intégrer des solutions en production (AC 3)."
+                  description="Conception d'un outil automatisé pour vérifier l'intégrité des sauvegardes Oracle, assurant la fiabilité des données et la continuité des opérations. Ce projet m'a permis de profiler et analyser le comportement du code (AC 5), d’intégrer des solutions en production (AC 3) et de faire évoluer une application existante (AC 2)."
                   projectLink="/project/OBC"
               />
             </Col>
@@ -146,7 +155,7 @@ function Projects() {
                   imgPath={intranet}
                   isBlog={false}
                   title="Intranet Agglo 2025"
-                  description="Développement d'un intranet pour une collectivité territoriale, facilitant la communication interne et l'accès aux ressources pour les employés. Ce projet a impliqué la conception d’architectures adaptées (AC 1) et l’accompagnement du management de projet informatique (AC 10)."
+                  description="Développement d'un intranet pour une collectivité territoriale, facilitant la communication interne et l'accès aux ressources pour les employés. Ce projet a impliqué la conception d’architectures adaptées (AC 1), l’accompagnement du management de projet informatique (AC 10) et la conduite du changement au sein d’une organisation (AC 9)."
                   projectLink="/project/Intranet"
               />
             </Col>
@@ -156,7 +165,7 @@ function Projects() {
                   imgPath={ChatPitreMusical}
                   isBlog={false}
                   title="ChatPitre Musical"
-                  description="Participation à la création d'un jeu vidéo sur le thème de la musique lors de la CGJ 2025 avec des mécaniques rythmiques. Cette expérience a renforcé mes compétences en choix et utilisation de bibliothèques dédiées aux jeux vidéo sur Godot (AC 6) et en travail collaboratif (AC 10)."
+                  description="Participation à la création d'un jeu vidéo sur le thème de la musique lors de la CGJ 2025 avec des mécaniques rythmiques. Cette expérience a renforcé mes compétences en choix et utilisation de bibliothèques dédiées aux jeux vidéo sur Godot (AC 6), en travail collaboratif (AC 10) et en optimisation des performances (AC 4)."
                   ghLink="https://github.com/Nolucci/CGJ2025"
                   demoLink="https://nolucci.itch.io/chat-pitre-musical"
                   projectLink="/project/ChatPitreMusical"
@@ -168,7 +177,7 @@ function Projects() {
                   imgPath={WispMadness}
                   isBlog={false}
                   title="Wisp Madness"
-                  description="Développement d'un jeu vidéo dans le cadre de la CGJ 2023, mettant en scène des esprits dans un 'vampire survivor like'. Ce projet m'a permis de choisir et utiliser des bibliothèques spécifiques au jeu vidéo (AC 6) et d’optimiser les performances du jeu (AC 4)."
+                  description="Création d'un jeu vidéo basé sur la manipulation des éléments météorologiques pour résoudre des énigmes. Ce projet a consolidé mes compétences en conception de mécaniques de jeu innovantes (AC 6) et en organisation d’une veille technologique (AC 7)."
                   ghLink="https://github.com/LokiAquila/WispMadness"
                   demoLink="https://nolucci.itch.io/wisp-madness"
                   projectLink="/project/WispMadness"
@@ -191,7 +200,7 @@ function Projects() {
                   imgPath={ndi}
                   isBlog={false}
                   title="Nuit de l'Info"
-                  description="Participation à la 'Nuit de l'Info', un hackathon national où des équipes d'étudiants développent des applications innovantes en une nuit. Cette expérience a renforcé mes compétences en travail collaboratif (AC 10) et en veille technologique (AC 7)."
+                  description="Participation à la Nuit de l'Info, un hackathon national où des équipes d'étudiants développent des applications innovantes en une nuit. Cette expérience a renforcé mes compétences en travail collaboratif (AC 10), en veille technologique (AC 7) et en compréhension des enjeux de l’économie de l’innovation numérique (AC 8)."
                   ghLink="https://gitlabinfo.iutmontp.univ-montp2.fr/franceskinn/ndi-2023"
                   projectLink="/project/NDI"
               />
@@ -202,7 +211,7 @@ function Projects() {
                   imgPath={salt}
                   isBlog={false}
                   title="S.Alt"
-                  description="S.Alt est une application de gestion de stages et d'alternances pour l'IUT de Montpellier-Sète. Ce projet m'a permis d’approfondir mes compétences en choix et utilisation de bibliothèques dédiées (Symfony) (AC 6) et en intégration de solutions en production (AC 3)."
+                  description="S.Alt est une application de gestion de stages et d'alternances pour l'IUT de Montpellier-Sète. Ce projet m'a permis d’approfondir mes compétences en choix et utilisation de bibliothèques dédiées (AC 6, Symfony), en intégration de solutions en production (AC 3) et en anticipation des résultats de diverses métriques (AC 4)."
                   ghLink="https://gitlabinfo.iutmontp.univ-montp2.fr/sae-semestre-31/salt.git"
                   projectLink="/project/SAlt"
               />
@@ -212,8 +221,8 @@ function Projects() {
               <ProjectCard
                   imgPath={rail}
                   isBlog={false}
-                  title="Les Aventuriers des Rail / Graphe"
-                  description="Réalisation d'une application simulant le jeu 'Les Aventuriers du Rail', mettant en œuvre des structures de données avancées pour la gestion des graphes. Ce projet a renforcé mes compétences en analyse et justification du comportement du code (AC 5) et en choix de bibliothèques adaptées (AC 6)."
+                  title="Les Aventuriers des Rails"
+                  description="Réalisation d'une application simulant le jeu 'Les Aventuriers du Rail', mettant en œuvre des structures de données avancées pour la gestion des graphes. Ce projet a renforcé mes compétences en analyse et justification du comportement du code (AC 5), en choix de bibliothèques adaptées (AC 6) et en algorithmie avancée."
                   ghLink="https://gitlabinfo.iutmontp.univ-montp2.fr/ihm/archives/etu/delucae-franceskinn-oubramk/railsihm"
                   projectLink="/project/AventurierDesRails"
               />
