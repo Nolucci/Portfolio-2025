@@ -1,7 +1,9 @@
 import React from "react";
 import { Container, Row, Col, Card, Image, Button } from "react-bootstrap";
 import Particle from "../../Particle";
-import ww from "../../../Assets/Projects/WeatherWizardry.png";
+import ww1 from "../../../Assets/Pages/WW1.png";
+import ww2 from "../../../Assets/Pages/WW2.png";
+import ww3 from "../../../Assets/Pages/WW3.png";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 function WeatherWizardry() {
@@ -36,7 +38,7 @@ function WeatherWizardry() {
                         </Card>
                     </Col>
                     <Col md={5}>
-                        <Image src={ww} alt="Weather Wizardry" fluid rounded className="shadow-lg" />
+                        <Image src={ww1} alt="Weather Wizardry" fluid rounded className="shadow-lg" />
                     </Col>
                 </Row>
 
@@ -53,7 +55,7 @@ function WeatherWizardry() {
                         </ul>
                     </Col>
                     <Col md={5}>
-                        <Image src={ww} alt="Gameplay Weather Wizardry" fluid rounded className="shadow-lg" />
+                        <Image src={ww2} alt="Gameplay Weather Wizardry" fluid rounded className="shadow-lg" />
                     </Col>
                 </Row>
 
@@ -67,7 +69,7 @@ function WeatherWizardry() {
                         </div>
                     </Col>
                     <Col md={5}>
-                        <Image src={ww} alt="Démo Weather Wizardry" fluid rounded className="shadow-lg" />
+                        <Image src={ww3} alt="Démo Weather Wizardry" fluid rounded className="shadow-lg" />
                     </Col>
                 </Row>
             </Container>

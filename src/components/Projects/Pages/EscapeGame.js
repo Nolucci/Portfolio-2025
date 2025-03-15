@@ -50,17 +50,10 @@ function EscapeGameProject() {
                             <ListGroup.Item className="bg-dark text-white">Conception d'une narration immersive et cohérente</ListGroup.Item>
                             <ListGroup.Item className="bg-dark text-white">Veille technologique active autour des mécaniques de jeu innovantes</ListGroup.Item>
                         </ListGroup>
-                    </Col>
-                    <Col md={5}>
-                        <Image src={escapeGame} alt="Description projet" fluid rounded className="shadow-lg" />
-                    </Col>
-                </Row>
-
-                <Row className="align-items-center mt-5">
-                    <Col md={7}>
+                        <br/>
                         <h2 className="blue mb-3">Ma contribution</h2>
                         <p style={{ color: "white", textAlign: "justify" }}>
-                            J'ai été impliqué activement dans le développement et la conception de ce projet, en prenant en charge plusieurs aspects clés :
+                            J'ai été impliqué activement dans le développement et la conception de ce projet, en prenant en charge plusieurs aspects clés du backend et du frontend.
                         </p>
                         <br/>
                         <h2 className="blue mb-3">Liens du projet</h2>
@@ -69,6 +62,9 @@ function EscapeGameProject() {
                                 <FaGithub /> GitHub
                             </Button>
                         </div>
+                    </Col>
+                    <Col md={5}>
+                        <Image src={escapeGame} alt="Description projet" fluid rounded className="shadow-lg" />
                     </Col>
                 </Row>
             </Container>

@@ -35,9 +35,6 @@ function ServeurProject() {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col md={5}>
-                        <Image src={serveur} alt="Serveur dédié" fluid rounded className="shadow-lg" />
-                    </Col>
                 </Row>
 
                 <Row className="align-items-center mb-5">
@@ -70,9 +67,6 @@ function ServeurProject() {
                                 <FaExternalLinkAlt /> Spécifications techniques
                             </Button>
                         </div>
-                    </Col>
-                    <Col md={5}>
-                        <Image src={serveur} alt="Documentation serveur" fluid rounded className="shadow-lg" />
                     </Col>
                 </Row>
             </Container>

@@ -1,7 +1,9 @@
 import React from "react";
 import { Container, Row, Col, Card, Image, Button, ListGroup } from "react-bootstrap";
 import Particle from "../../Particle";
-import meet from "../../../Assets/Projects/meet.png";
+import meet1 from "../../../Assets/Pages/meet3.png";
+import meet2 from "../../../Assets/Pages/meet1.png";
+import meet3 from "../../../Assets/Pages/meet2.png";
 import {FaGitlab, FaExternalLinkAlt} from "react-icons/fa";
 
 function MeetAPI() {
@@ -36,7 +38,7 @@ function MeetAPI() {
                         </Card>
                     </Col>
                     <Col md={5}>
-                        <Image src={meet} alt="Meet Application" fluid rounded className="shadow-lg" />
+                        <Image src={meet1} alt="Meet Application" fluid rounded className="shadow-lg" />
                     </Col>
                 </Row>
 
@@ -55,7 +57,7 @@ function MeetAPI() {
                         </ListGroup>
                     </Col>
                     <Col md={5}>
-                        <Image src={meet} alt="Interface utilisateur Meet" fluid rounded className="shadow-lg" />
+                        <Image src={meet2} alt="Interface utilisateur Meet" fluid rounded className="shadow-lg" />
                     </Col>
                 </Row>
 
@@ -77,7 +79,7 @@ function MeetAPI() {
                         </div>
                     </Col>
                     <Col md={5}>
-                        <Image src={meet} alt="Capture écran Meet" fluid rounded className="shadow-lg" />
+                        <Image src={meet3} alt="Capture écran Meet" fluid rounded className="shadow-lg" />
                     </Col>
                 </Row>
             </Container>

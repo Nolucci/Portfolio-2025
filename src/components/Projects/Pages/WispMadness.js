@@ -2,7 +2,9 @@ import React from "react";
 import { Container, Row, Col, Card, Image, Button } from "react-bootstrap";
 import Particle from "../../Particle";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
-import wispMadness from "../../../Assets/Projects/WispMadness.png";
+import wispMadness from "../../../Assets/Pages/WM1.png";
+import wispMadness2 from "../../../Assets/Pages/WM2.png";
+import ReactPlayer from "react-player";
 
 function WispMadness() {
     return (
@@ -35,8 +37,14 @@ function WispMadness() {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col md={5}>
-                        <Image src={wispMadness} alt="Wisp Madness" fluid rounded className="shadow-lg" />
+                    <Col md={5} className="d-flex justify-content-center">
+                        <ReactPlayer
+                            url="https://youtu.be/SMpdsIQnftM"
+                            width="100%"
+                            height="19em"
+                            controls
+                            className="shadow-lg rounded"
+                        />
                     </Col>
                 </Row>
 
@@ -70,7 +78,7 @@ function WispMadness() {
                         </div>
                     </Col>
                     <Col md={5}>
-                        <Image src={wispMadness} alt="Démo Wisp Madness" fluid rounded className="shadow-lg" />
+                        <Image src={wispMadness2} alt="Démo Wisp Madness" fluid rounded className="shadow-lg" />
                     </Col>
                 </Row>
             </Container>

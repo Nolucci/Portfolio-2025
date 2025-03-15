@@ -24,7 +24,7 @@ function GoPet() {
                                     </Col>
                                     <Col md={6}>
                                         <strong className="text-blue">Rôle :</strong>
-                                        <span>Développeur Fullstack</span>
+                                        <span>Superviseur du groupe</span>
                                     </Col>
                                     <Col md={6}>
                                         <strong className="text-blue">Statut :</strong>

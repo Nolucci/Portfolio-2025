@@ -1,8 +1,7 @@
 import React from "react";
-import { Container, Row, Col, Card, Image, Button, ListGroup } from "react-bootstrap";
+import { Container, Row, Col, Card, Image, ListGroup } from "react-bootstrap";
 import Particle from "../../Particle";
 import obc from "../../../Assets/Projects/obc.png";
-import { FaGithub } from "react-icons/fa";
 
 function OracleBackupChecker() {
     return (
@@ -21,7 +20,7 @@ function OracleBackupChecker() {
                                     </Col>
                                     <Col md={6} className="mb-3">
                                         <strong className="text-blue">Technologies :</strong>
-                                        <span>Oracle DB, Python, Bash</span>
+                                        <span>Oracle DB, WebDEV, WLangage</span>
                                     </Col>
                                     <Col md={6}>
                                         <strong className="text-blue">Rôle :</strong>
@@ -62,13 +61,6 @@ function OracleBackupChecker() {
                         <p style={{ color: "white", textAlign: "justify" }}>
                             J'ai participé activement à l'analyse et à l'amélioration des scripts de vérification des sauvegardes, en optimisant leur exécution et en intégrant des alertes automatiques en cas de défaillance. J'ai également documenté le processus pour assurer la maintenabilité de l'outil.
                         </p>
-                        <br/>
-                        <h2 className="blue mb-3">Liens du projet</h2>
-                        <div className="mt-4">
-                            <Button variant="outline-light" href="https://github.com/tonrepo/OracleBackupChecker" target="_blank">
-                                <FaGithub /> GitHub
-                            </Button>
-                        </div>
                     </Col>
                 </Row>
             </Container>

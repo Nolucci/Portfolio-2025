@@ -2,7 +2,9 @@ import React from "react";
 import { Container, Row, Col, Card, Image, Button, ListGroup } from "react-bootstrap";
 import Particle from "../../Particle";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
-import ChatPitreMusical from "../../../Assets/Projects/ChatPitreMusical.png";
+import ChatPitreMusical from "../../../Assets/Pages/CPM1.png";
+import ChatPitreMusical2 from "../../../Assets/Pages/CPM2.png";
+import ReactPlayer from "react-player";
 
 function ChatPitreMusicalPage() {
     return (
@@ -35,8 +37,14 @@ function ChatPitreMusicalPage() {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col md={5}>
-                        <Image src={ChatPitreMusical} alt="ChatPitre Musical" fluid rounded className="shadow-lg" />
+                    <Col md={5} className="d-flex justify-content-center">
+                        <ReactPlayer
+                            url="https://youtu.be/qSnonyOxA0Y"
+                            width="100%"
+                            height="19em"
+                            controls
+                            className="shadow-lg rounded"
+                        />
                     </Col>
                 </Row>
 
@@ -77,7 +85,7 @@ function ChatPitreMusicalPage() {
                         </div>
                     </Col>
                     <Col md={5}>
-                        <Image src={ChatPitreMusical} alt="Démo du jeu" fluid rounded className="shadow-lg" />
+                        <Image src={ChatPitreMusical2} alt="Démo du jeu" fluid rounded className="shadow-lg" />
                     </Col>
                 </Row>
             </Container>

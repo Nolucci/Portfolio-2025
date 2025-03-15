@@ -17,11 +17,11 @@ function IntranetAgglo2025() {
                                 <Row>
                                     <Col md={6} className="mb-3">
                                         <strong className="text-blue">Cadre du projet :</strong>
-                                        <span>SAÉ de développement, 4<sup>ème</sup> semestre de BUT</span>
+                                        <span>Projet d'alternance 2024-2025</span>
                                     </Col>
                                     <Col md={6} className="mb-3">
                                         <strong className="text-blue">Technologies :</strong>
-                                        <span>Vue.js, Node.js, Express, MySQL</span>
+                                        <span>Jalios, Html/CSS, JS</span>
                                     </Col>
                                     <Col md={6}>
                                         <strong className="text-blue">Rôle :</strong>
@@ -29,14 +29,11 @@ function IntranetAgglo2025() {
                                     </Col>
                                     <Col md={6}>
                                         <strong className="text-blue">Statut :</strong>
-                                        <span>Terminé</span>
+                                        <span>En cours</span>
                                     </Col>
                                 </Row>
                             </Card.Body>
                         </Card>
-                    </Col>
-                    <Col md={5}>
-                        <Image src={intranet} alt="Intranet Agglo 2025" fluid rounded className="shadow-lg" />
                     </Col>
                 </Row>
 
@@ -75,9 +72,6 @@ function IntranetAgglo2025() {
                                 <FaExternalLinkAlt /> Démo en ligne
                             </Button>
                         </div>
-                    </Col>
-                    <Col md={5}>
-                        <Image src={intranet} alt="Capture écran Intranet Agglo 2025" fluid rounded className="shadow-lg" />
                     </Col>
                 </Row>
             </Container>

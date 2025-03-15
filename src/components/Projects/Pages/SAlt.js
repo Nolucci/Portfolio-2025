@@ -1,7 +1,8 @@
 import React from "react";
 import { Container, Row, Col, Card, Image, Button, ListGroup } from "react-bootstrap";
 import Particle from "../../Particle";
-import salt from "../../../Assets/Projects/salt.png";
+import salt1 from "../../../Assets/Pages/salt1.png";
+import salt2 from "../../../Assets/Pages/salt2.png";
 import { FaGithub } from "react-icons/fa";
 
 function SaltProject() {
@@ -36,7 +37,7 @@ function SaltProject() {
                         </Card>
                     </Col>
                     <Col md={5}>
-                        <Image src={salt} alt="SALT" fluid rounded className="shadow-lg" />
+                        <Image src={salt1} alt="SALT" fluid rounded className="shadow-lg" />
                     </Col>
                 </Row>
 
@@ -55,7 +56,7 @@ function SaltProject() {
                         </ListGroup>
                     </Col>
                     <Col md={5}>
-                        <Image src={salt} alt="Interface utilisateur S.ALT" fluid rounded className="shadow-lg" />
+                        <Image src={salt2} alt="Interface utilisateur S.ALT" fluid rounded className="shadow-lg" />
                     </Col>
                 </Row>
 
@@ -72,9 +73,6 @@ function SaltProject() {
                                 <FaGithub /> GitHub
                             </Button>
                         </div>
-                    </Col>
-                    <Col md={5}>
-                        <Image src={salt} alt="Démo du projet S.ALT" fluid rounded className="shadow-lg" />
                     </Col>
                 </Row>
             </Container>
