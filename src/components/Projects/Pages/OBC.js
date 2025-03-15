@@ -35,9 +35,6 @@ function OracleBackupChecker() {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col md={5}>
-                        <Image src={obc} alt="Oracle Backup Checker" fluid rounded className="shadow-lg" />
-                    </Col>
                 </Row>
 
                 <Row className="align-items-center mb-5">
@@ -72,9 +69,6 @@ function OracleBackupChecker() {
                                 <FaGithub /> GitHub
                             </Button>
                         </div>
-                    </Col>
-                    <Col md={5}>
-                        <Image src={obc} alt="Capture écran Oracle Backup Checker" fluid rounded className="shadow-lg" />
                     </Col>
                 </Row>
             </Container>
