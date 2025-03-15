@@ -35,9 +35,6 @@ function MastermindProject() {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col md={5}>
-                        <Image src={mastermind} alt="Mastermind Projet" fluid rounded className="shadow-lg" />
-                    </Col>
                 </Row>
 
                 <Row className="align-items-center mb-5">
@@ -72,9 +69,6 @@ function MastermindProject() {
                                 <FaGithub /> GitHub
                             </Button>
                         </div>
-                    </Col>
-                    <Col md={5}>
-                        <Image src={mastermind} alt="Capture écran Mastermind" fluid rounded className="shadow-lg" />
                     </Col>
                 </Row>
             </Container>
