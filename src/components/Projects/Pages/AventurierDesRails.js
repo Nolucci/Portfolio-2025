@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Row, Col, Card, Image, Button, ListGroup } from "react-bootstrap";
 import Particle from "../../Particle";
-import rail from "../../../Assets/Projects/rail.png"; // Assure-toi que l'image corresponde à ton projet réel
-import { FaGitlab } from "react-icons/fa";
+import rail from "../../../Assets/Projects/rail.png";
+import { FaGitlab, FaExternalLinkAlt } from "react-icons/fa";
 
 function AventuriersDesRails() {
     return (
@@ -11,9 +11,7 @@ function AventuriersDesRails() {
             <Container>
                 <Row className="align-items-center mb-5">
                     <Col md={7}>
-                        <h1 className="project-heading mb-4">
-                            Portage des Aventuriers des Rails : Autour du Monde
-                        </h1>
+                        <h1 className="project-heading mb-4">Portage des Aventuriers des Rails : Autour du Monde</h1>
                         <Card className="bg-dark text-white shadow rounded-3">
                             <Card.Body>
                                 <Row>
@@ -44,35 +42,44 @@ function AventuriersDesRails() {
 
                 <Row className="align-items-center mb-5">
                     <Col md={7}>
-                        <h2 className="blue mb-3">Description détaillée du projet</h2>
+                        <h2 className="blue mb-3">Description détaillée</h2>
                         <p style={{ color: "white", textAlign: "justify" }}>
-                            Ce projet était la SAÉ de développement du second semestre du BUT Informatique, portant sur les compétences de Développement et d'Optimisation (UE 1 et 2). L'objectif principal était un portage numérique du jeu de plateau <em>Les Aventuriers du Rail : Autour du Monde</em> en Java, avec une interface graphique réalisée à l'aide de JavaFX.
+                            Ce projet était une SAÉ de développement du second semestre du BUT Informatique, portant sur les compétences de Développement et d'Optimisation. L'objectif principal était un portage numérique du jeu de plateau <em>Les Aventuriers du Rail : Autour du Monde</em> en Java, avec une interface graphique réalisée avec JavaFX.
                         </p>
+                        <br/>
                         <h4 className="text-white">Les trois phases du projet :</h4>
-                        <ListGroup variant="flush" className="mb-4">
-                            <ListGroup.Item className="bg-dark text-white">Développement du cœur du jeu en Java selon des règles prédéfinies avec tests unitaires via Jupiter.</ListGroup.Item>
+                        <ListGroup variant="flush" className="text-white text-start">
+                            <ListGroup.Item className="bg-dark text-white border-0">Développement du cœur du jeu en Java selon des règles prédéfinies avec tests unitaires via Jupiter.</ListGroup.Item>
                             <ListGroup.Item className="bg-dark text-white">Création d'une API Graphes intégrant l'algorithme de Dijkstra pour les calculs de routes optimisées entre villes.</ListGroup.Item>
-                            <ListGroup.Item className="bg-dark text-white">Mise en place d'une interface utilisateur avancée via JavaFX et SceneBuilder, intégrée directement dans le jeu.</ListGroup.Item>
+                            <ListGroup.Item className="bg-dark text-white">Mise en place d'une interface utilisateur avancée via JavaFX et SceneBuilder.</ListGroup.Item>
                         </ListGroup>
-
-                        <h4 className="text-white">Ma contribution :</h4>
-                        <ul className="text-white text-start">
-                            <li>Implémentation des mécaniques de jeu (pioche de cartes, capture de routes, échanges de pions).</li>
-                            <li>Développement de l'algorithme de Dijkstra dans l'API Graphe.</li>
-                            <li>Connexion efficace entre les composants du jeu et l'interface utilisateur graphique.</li>
-                        </ul>
                     </Col>
                     <Col md={5}>
-                        <Image src={rail} alt="Aperçu Interface Graphique JavaFX" fluid rounded className="shadow-lg" />
+                        <Image src={rail} alt="Interface utilisateur Aventuriers des Rails" fluid rounded className="shadow-lg" />
                     </Col>
                 </Row>
 
                 <Row className="align-items-center mt-5">
                     <Col md={7}>
-                        <h2 className="blue mb-3">Accéder au projet</h2>
+                        <h2 className="blue mb-3">Ma contribution</h2>
+                        <p style={{ color: "white", textAlign: "justify" }}>
+                            J'ai participé activement au développement de ce projet en réalisant plusieurs fonctionnalités clés :
+                        </p>
+                        <br/>
+                        <h4 className="text-white">Points clés réalisés :</h4>
+                        <ListGroup variant="flush" className="text-white text-start">
+                            <ListGroup.Item className="bg-dark text-white border-0">Implémentation des mécaniques de jeu (pioche de cartes, capture de routes, échanges de pions).</ListGroup.Item>
+                            <ListGroup.Item className="bg-dark text-white">Développement de l'algorithme de Dijkstra dans l'API Graphe.</ListGroup.Item>
+                            <ListGroup.Item className="bg-dark text-white">Connexion efficace entre les composants du jeu et l'interface utilisateur graphique.</ListGroup.Item>
+                        </ListGroup>
+                        <br/>
+                        <h2 className="blue mb-3">Liens du projet</h2>
                         <div className="mt-4">
-                            <Button variant="outline-light" href="https://gitlabinfo.iutmontp.univ-montp2.fr/franceskinn/railsihm" target="_blank">
-                                <FaGitlab /> Voir sur GitLab
+                            <Button variant="outline-light" href="https://gitlabinfo.iutmontp.univ-montp2.fr/franceskinn/railsihm" target="_blank" className="me-3">
+                                <FaGitlab /> GitLab
+                            </Button>
+                            <Button variant="outline-light" href="#" target="_blank">
+                                <FaExternalLinkAlt /> Démo en ligne
                             </Button>
                         </div>
                     </Col>
