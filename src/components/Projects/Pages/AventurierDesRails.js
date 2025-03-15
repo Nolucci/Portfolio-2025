@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col, Card, Image, Button, ListGroup } from "react-bootstrap";
 import Particle from "../../Particle";
 import rail from "../../../Assets/Projects/rail.png";
-import { FaGitlab, FaExternalLinkAlt } from "react-icons/fa";
+import { FaGitlab } from "react-icons/fa";
 
 function AventuriersDesRails() {
     return (
@@ -34,9 +34,6 @@ function AventuriersDesRails() {
                                 </Row>
                             </Card.Body>
                         </Card>
-                    </Col>
-                    <Col md={5}>
-                        <Image src={rail} alt="Interface Aventuriers des Rails" fluid rounded className="shadow-lg" />
                     </Col>
                 </Row>
 
@@ -78,13 +75,7 @@ function AventuriersDesRails() {
                             <Button variant="outline-light" href="https://gitlabinfo.iutmontp.univ-montp2.fr/franceskinn/railsihm" target="_blank" className="me-3">
                                 <FaGitlab /> GitLab
                             </Button>
-                            <Button variant="outline-light" href="#" target="_blank">
-                                <FaExternalLinkAlt /> Démo en ligne
-                            </Button>
                         </div>
-                    </Col>
-                    <Col md={5}>
-                        <Image src={rail} alt="Aperçu du projet" fluid rounded className="shadow-lg" />
                     </Col>
                 </Row>
             </Container>
