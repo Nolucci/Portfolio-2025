@@ -12,7 +12,7 @@ function WispMadness() {
                 <Row className="align-items-center mb-5">
                     <Col md={7}>
                         <h1 className="project-heading mb-4">Wisp Madness : Légende éthérée</h1>
-                        <Card className="bg-dark text-white shadow">
+                        <Card className="bg-dark text-white shadow rounded-3">
                             <Card.Body>
                                 <Row>
                                     <Col md={6} className="mb-3">
@@ -44,7 +44,7 @@ function WispMadness() {
                     <Col md={7}>
                         <h2 className="blue mb-3">Description du projet</h2>
                         <p style={{ color: "white", textAlign: "justify" }}>
-                            Développement d'un jeu vidéo en équipe à l'occasion de la Code Game Jam 2024, compétition regroupant 43 équipes. Sur le thème « Légende éthérée », notre équipe a développé en seulement 2 jours un jeu de type <strong>survival game</strong>, original et captivant, nous permettant de décrocher le <strong>deuxième prix 🥈</strong>. Cette expérience a été très enrichissante techniquement et humainement, approfondissant mes connaissances en C# et en Godot tout en renforçant mon organisation d'équipe (AC 10).
+                            Développement d'un jeu vidéo en équipe à l'occasion de la Code Game Jam 2024, compétition regroupant 43 équipes. Sur le thème « Légende éthérée », notre équipe a développé en seulement 2 jours un jeu de type <strong>survival game</strong>, original et captivant, nous permettant de décrocher le <strong>deuxième prix 🥈</strong>. Cette expérience a été très enrichissante techniquement et humainement, approfondissant mes connaissances en C# et en Godot tout en renforçant mon organisation d'équipe.
                         </p>
                         <ul className="text-white text-start">
                             <li>Conception du gameplay et implémentation des mécaniques en C# sur Godot</li>
@@ -61,11 +61,11 @@ function WispMadness() {
                     <Col md={7}>
                         <h2 className="blue mb-3">Liens du projet</h2>
                         <div className="mt-4">
-                            <Button variant="outline-light" href="https://github.com/tonlienversrepo" target="_blank" className="me-3">
+                            <Button variant="outline-light" href="https://github.com/LokiAquila/WispMadness" target="_blank" className="me-3">
                                 <FaGithub /> GitHub
                             </Button>
-                            <Button variant="outline-light" href="#" target="_blank" disabled>
-                                <FaExternalLinkAlt /> Démo indisponible
+                            <Button variant="outline-light" href="https://nolucci.itch.io/wisp-madness" target="_blank" className="me-3">
+                                <FaExternalLinkAlt /> Démo en ligne
                             </Button>
                         </div>
                     </Col>
