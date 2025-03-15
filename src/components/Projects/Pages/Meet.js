@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col, Card, Image, Button, ListGroup } from "react-bootstrap";
 import Particle from "../../Particle";
 import meet from "../../../Assets/Projects/meet.png";
-import { FaGitlab, FaExternalLinkAlt } from "react-icons/fa";
+import {FaGitlab, FaExternalLinkAlt} from "react-icons/fa";
 
 function MeetAPI() {
     return (
@@ -46,6 +46,7 @@ function MeetAPI() {
                         <p style={{ color: "white", textAlign: "justify" }}>
                             Projet de conception complète d'une application web dédiée à la gestion et à la participation à des événements. L'objectif principal était de permettre aux utilisateurs de s'inscrire, de consulter et de gérer leurs participations aux événements via une interface intuitive et dynamique réalisée avec Vue.js et TypeScript, soutenue par une API REST robuste.
                         </p>
+                        <br/>
                         <h4 className="text-white">Points clés réalisés :</h4>
                         <ListGroup variant="flush" className="text-white text-start">
                             <ListGroup.Item className="bg-dark text-white border-0">Gestion complète des utilisateurs (inscription, authentification sécurisée, déconnexion)</ListGroup.Item>
@@ -64,6 +65,8 @@ function MeetAPI() {
                         <p style={{ color: "white", textAlign: "justify" }}>
                             Étant seul sur ce projet, j'ai réalisé l'intégralité des étapes : conception et développement des composants Vue.js, création et intégration de l'API REST en TypeScript, gestion des données avec MongoDB, ainsi que le déploiement continu et documentation complète du projet.
                         </p>
+                        <br/>
+                        <h2 className="blue mb-3">Liens du projet</h2>
                         <div className="mt-4">
                             <Button variant="outline-light" href="https://gitlabinfo.iutmontp.univ-montp2.fr/franceskinn/meet.git" target="_blank" className="me-3">
                                 <FaGitlab /> GitLab
@@ -77,7 +80,6 @@ function MeetAPI() {
                         <Image src={meet} alt="Capture écran Meet" fluid rounded className="shadow-lg" />
                     </Col>
                 </Row>
-
             </Container>
         </Container>
     );
