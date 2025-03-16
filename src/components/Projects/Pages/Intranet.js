@@ -62,16 +62,6 @@ function IntranetAgglo2025() {
                         <p style={{ color: "white", textAlign: "justify" }}>
                             J'ai conçu et développé l'intégralité du projet, en mettant l'accent sur une architecture robuste, une interface fluide et ergonomique, et en assurant le déploiement et la formation des utilisateurs finaux.
                         </p>
-                        <br/>
-                        <h2 className="blue mb-3">Liens du projet</h2>
-                        <div className="mt-4">
-                            <Button variant="outline-light" href="https://gitlab.com/projet-intranet-agglo" target="_blank" className="me-3">
-                                <FaGitlab /> GitLab
-                            </Button>
-                            <Button variant="outline-light" href="https://intranet-agglo-demo.com" target="_blank">
-                                <FaExternalLinkAlt /> Démo en ligne
-                            </Button>
-                        </div>
                     </Col>
                 </Row>
             </Container>
