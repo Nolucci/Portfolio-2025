@@ -17,7 +17,6 @@ import WispMadness from "./components/Projects/Pages/WispMadness";
 import WeatherWizardry from "./components/Projects/Pages/WeatherWizardry";
 import NDI from "./components/Projects/Pages/NDI";
 import ChatPitreMusical from "./components/Projects/Pages/ChatPitreMusical";
-import GoPetSit from "./components/Projects/Pages/GoPetSit";
 import Mastermind from "./components/Projects/Pages/Mastermind";
 import Serveur from "./components/Projects/Pages/Serveur";
 
@@ -61,7 +60,6 @@ function App() {
             <Route path="/project/WispMadness" element={<WispMadness />} />
             <Route path="/project/WeatherWizardry" element={<WeatherWizardry />} />
             <Route path="/project/NDI" element={<NDI />} />
-            <Route path="/project/GoPetSit" element={<GoPetSit />} />
             <Route path="/project/Mastermind" element={<Mastermind />} />
             <Route path="/project/Serveur" element={<Serveur />} />
 

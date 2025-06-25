@@ -12,10 +12,14 @@ import {
 } from "react-icons/di";
 import {
     SiRedis,
+    SiFirebase,
+    SiNextdotjs,
+    SiSolidity,
     SiPostgresql,
     SiTypescript,
     SiDocker,
     SiKubernetes,
+    SiGraphql,
     SiTailwindcss,
     SiAmazonaws,
     SiLinux
@@ -35,9 +39,6 @@ function Techstack() {
                 <SiTypescript />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <TbBrandGolang />
-            </Col>
-            <Col xs={4} md={2} className="tech-icons">
                 <DiNodejs />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
@@ -47,10 +48,10 @@ function Techstack() {
                 <DiMongodb />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <DiGit />
+                <SiNextdotjs />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <SiRedis />
+                <DiGit />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
                 <SiPostgresql />
@@ -69,9 +70,6 @@ function Techstack() {
             </Col>
             <Col xs={4} md={2} className="tech-icons">
                 <SiTailwindcss />
-            </Col>
-            <Col xs={4} md={2} className="tech-icons">
-                <SiAmazonaws />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
                 <SiLinux />

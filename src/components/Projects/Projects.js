@@ -10,7 +10,6 @@ import serveur from "../../Assets/Projects/serveur.png";
 import ChatPitreMusical from "../../Assets/Projects/ChatPitreMusical.png";
 import WispMadness from "../../Assets/Projects/WispMadness.png";
 import WeatherWizardry from "../../Assets/Projects/WeatherWizardry.png";
-import gopetsit from "../../Assets/Projects/gopetsit.png";
 import ndi from "../../Assets/Projects/ndi.png";
 import salt from "../../Assets/Projects/salt.png";
 import mastermind from "../../Assets/Projects/mastermind.jpeg";
@@ -30,103 +29,7 @@ function Projects() {
             Voici une sélection de projets significatifs que j'ai réalisés au cours de mon parcours en informatique.
           </p>
           <br/>
-          <p style={{color: "white", fontWeight: "bold", textAlign: "left"}}>
-            Note : Les Apprentissages Critiques (AC) associés à chaque projet sont indiqués à titre informatif. Ces
-            mentions seront supprimées une fois les portfolios évalués.
-          </p>
-          <br/>
-          <p style={{color: "white", textAlign: "left"}}>
-            Ces projets sont associés aux Apprentissages Critiques (AC) du parcours RACDV (Réalisation d'Applications
-            Collaboratives et Distribuées). Pour cette troisième année de BUT, les projets sont liés aux AC suivants :
-          </p>
-          <br/>
-          <p style={{color: "white", textAlign: "left"}}>
-            <span className="blue">Partie Réaliser :</span><br/>
-            <strong>AC 1 :</strong> Choisir et implémenter des architectures adaptées<br/>
-            <div>
-              <Button variant="outline-light" href="/project/Meet" target="_blank">Meet API</Button>
-              <Button variant="outline-light" href="/project/Intranet" target="_blank">Intranet Agglo 2025</Button>
-              <Button variant="outline-light" href="/project/GoPetSit" target="_blank">GoPetSit</Button>
-            </div>
-            <br/>
-
-            <strong>AC 2 :</strong> Faire évoluer une application existante<br/>
-            <div>
-              <Button variant="outline-light" href="/project/Intranet" target="_blank">Intranet Agglo 2025</Button>
-              <Button variant="outline-light" href="/project/OBC" target="_blank">Oracle Backup Checker</Button>
-            </div>
-            <br/>
-
-            <strong>AC 3 :</strong> Intégrer des solutions dans un environnement de production<br/>
-            <div>
-              <Button variant="outline-light" href="/project/Meet" target="_blank">Meet API</Button>
-              <Button variant="outline-light" href="/project/OBC" target="_blank">Oracle Backup Checker</Button>
-              <Button variant="outline-light" href="/project/SAlt" target="_blank">S.Alt</Button>
-              <Button variant="outline-light" href="/project/GoPetSit" target="_blank">GoPetSit</Button>
-              <Button variant="outline-light" href="/project/Serveur" target="_blank">Serveur</Button>
-            </div>
-            <br/>
-
-            <span className="blue">Partie Optimiser :</span><br/>
-            <strong>AC 4 :</strong> Anticiper les résultats de diverses métriques<br/>
-            <div>
-              <Button variant="outline-light" href="/project/SAlt" target="_blank">S.Alt</Button>
-              <Button variant="outline-light" href="/project/Mastermind" target="_blank">Mastermind</Button>
-              <Button variant="outline-light" href="/project/WispMadness" target="_blank">Wisp Madness</Button>
-            </div>
-            <br/>
-
-            <strong>AC 5 :</strong> Profiler, analyser et justifier le comportement d’un code existant<br/>
-            <div>
-              <Button variant="outline-light" href="/project/OBC" target="_blank">Oracle Backup Checker</Button>
-              <Button variant="outline-light" href="/project/Mastermind" target="_blank">Mastermind</Button>
-              <Button variant="outline-light" href="/project/AventurierDesRails" target="_blank">Les Aventuriers des Rail</Button>
-            </div>
-            <br/>
-
-            <strong>AC 6 :</strong> Choisir et utiliser des bibliothèques dédiées au domaine d’application<br/>
-            <div>
-              <Button variant="outline-light" href="/project/ChatPitreMusical" target="_blank">ChatPitre Musical</Button>
-              <Button variant="outline-light" href="/project/WispMadness" target="_blank">Wisp Madness</Button>
-              <Button variant="outline-light" href="/project/WeatherWizardry" target="_blank">Weather Wizardry</Button>
-              <Button variant="outline-light" href="/project/EscapeGame" target="_blank">Escape Game</Button>
-              <Button variant="outline-light" href="/project/SAlt" target="_blank">S.Alt</Button>
-              <Button variant="outline-light" href="/project/AventurierDesRails" target="_blank">Les Aventuriers des Rail</Button>
-            </div>
-            <br/>
-
-            <span className="blue">Partie Collaborer :</span><br/>
-            <strong>AC 7 :</strong> Organiser et partager une veille numérique<br/>
-            <div>
-              <Button variant="outline-light" href="/project/NuitDeLInfo" target="_blank">Nuit de l'Info</Button>
-              <Button variant="outline-light" href="/project/WeatherWizardry" target="_blank">Weather Wizardry</Button>
-              <Button variant="outline-light" href="/project/EscapeGame" target="_blank">Escape Game</Button>
-            </div>
-            <br/>
-
-            <strong>AC 8 :</strong> Identifier les enjeux de l’économie de l’innovation numérique<br/>
-            <div>
-              <Button variant="outline-light" href="/project/NuitDeLInfo" target="_blank">Nuit de l'Info</Button>
-            </div>
-            <br/>
-
-            <strong>AC 9 :</strong> Guider la conduite du changement informatique au sein d’une organisation<br/>
-            <div>
-              <Button variant="outline-light" href="/project/Intranet" target="_blank">Intranet Agglo 2025</Button>
-            </div>
-            <br/>
-
-            <strong>AC 10 :</strong> Accompagner le management de projet informatique<br/>
-            <div>
-              <Button variant="outline-light" href="/project/Intranet" target="_blank">Intranet Agglo 2025</Button>
-              <Button variant="outline-light" href="/project/WispMadness" target="_blank">Wisp Madness</Button>
-              <Button variant="outline-light" href="/project/ChatPitreMusical" target="_blank">ChatPitre Musical</Button>
-              <Button variant="outline-light" href="/project/NuitDeLInfo" target="_blank">Nuit de l'Info</Button>
-            </div>
-          </p>
-
-
-
+          
           <Row style={{justifyContent: "center", paddingBottom: "10px"}}>
             <Col md={4} className="project-card">
               <ProjectCard
@@ -225,16 +128,6 @@ function Projects() {
                   description="Réalisation d'une application simulant le jeu 'Les Aventuriers du Rail', mettant en œuvre des structures de données avancées pour la gestion des graphes. Ce projet a renforcé mes compétences en analyse et justification du comportement du code (AC 5), en choix de bibliothèques adaptées (AC 6) et en algorithmie avancée."
                   ghLink="https://gitlabinfo.iutmontp.univ-montp2.fr/ihm/archives/etu/delucae-franceskinn-oubramk/railsihm"
                   projectLink="/project/AventurierDesRails"
-              />
-            </Col>
-
-            <Col md={4} className="project-card">
-              <ProjectCard
-                  imgPath={gopetsit}
-                  isBlog={false}
-                  title="GoPetSit"
-                  description="Développement d'une plateforme de mise en relation entre propriétaires d'animaux et pet-sitters, facilitant la garde d'animaux de compagnie. Ce projet a impliqué la conception d’architectures adaptées (AC 1) et l’intégration en production (AC 3)."
-                  projectLink="/project/GoPetSit"
               />
             </Col>
 
